@@ -1,44 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T06:19:19.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vONq8YCiaIY5qOy05x6W" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T06:24:52.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="BpXsYzNaHiWPEaTfmlJK" version="15.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1632" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="920" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="50" y="490" width="750" height="190" as="geometry" />
+        <mxCell id="BwQDbkt73YdcrB1kdTZX-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="540" width="750" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-5" value="FEC SIEMENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="BwQDbkt73YdcrB1kdTZX-1" vertex="1">
+          <mxGeometry width="750" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-6" value="CTC - DUMMIE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="110" width="150" height="60" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-7" value="PDS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="BwQDbkt73YdcrB1kdTZX-1" vertex="1">
+          <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-7" value="PDS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-8" value="TEST_fec-scope_04_siema_a&lt;br&gt;fec_siemens_LITUANIA&lt;br&gt;&lt;br&gt;com.indra.davinci.fecsiemens.TEST_FecSiemens&lt;br&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-1" vertex="1">
+          <mxGeometry x="460" y="40" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-8" value="TEST_fec-scope_04_siema_a&lt;br&gt;fec_siemens_LITUANIA&lt;br&gt;&lt;br&gt;com.indra.davinci.fecsiemens.TEST_FecSiemens&lt;br&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="520" width="270" height="80" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-11" value="/fec_siemens_LITUANIA/&lt;br&gt;test/dummy-ence/resources/config&lt;br&gt;/fec_dummy/ences/Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-1" vertex="1">
+          <mxGeometry x="40" y="45" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-9" value="fec-scope_04_siema_a&lt;br&gt;lib&lt;br&gt;&lt;br&gt;com.indra.davinci.common.app.DavinciAppManager" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="510" y="300" width="280" height="110" as="geometry" />
+        <mxCell id="BwQDbkt73YdcrB1kdTZX-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="40" width="760" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-10" value="__CTC_DUMMY&lt;br&gt;__PROOF_ctc_simulator&lt;br&gt;&lt;br&gt;com.indra.davinci.ctc.proxyfec.ProxyFECDummy" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="120" width="280" height="60" as="geometry" />
+        <mxCell id="BwQDbkt73YdcrB1kdTZX-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="BwQDbkt73YdcrB1kdTZX-5">
+          <mxGeometry width="760" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QB4yElVCB4v4jR-u9dC9-11" value="/fec_siemens_LITUANIA/&lt;br&gt;test/dummy-ence/resources/config&lt;br&gt;/fec_dummy/ences/Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="525" width="220" height="80" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-6" value="CTC - DUMMIE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="BwQDbkt73YdcrB1kdTZX-5" vertex="1">
+          <mxGeometry x="260" y="30" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QDFLQy48Gwb5qH2AuqSx-1" value="n:\dev\wks_lg_jesus\&lt;br&gt;fec_siemens_LITUANIA\&lt;br&gt;test\&lt;br&gt;dummy-ence\resources&lt;br&gt;\config\fec_dummy\&lt;br&gt;ences\Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="100" width="190" height="80" as="geometry" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-10" value="__CTC_DUMMY&lt;br&gt;__PROOF_ctc_simulator&lt;br&gt;&lt;br&gt;com.indra.davinci.ctc.proxyfec.ProxyFECDummy" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-5" vertex="1">
+          <mxGeometry x="450" y="40" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sruSKKzcnbRnCq-W4u0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QDFLQy48Gwb5qH2AuqSx-2" target="pC3ntmLX9uvUexjrenxn-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QDFLQy48Gwb5qH2AuqSx-1" value="n:\dev\wks_lg_jesus\&lt;br&gt;fec_siemens_LITUANIA\&lt;br&gt;test\&lt;br&gt;dummy-ence\resources&lt;br&gt;\config\fec_dummy\&lt;br&gt;ences\Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-5" vertex="1">
+          <mxGeometry x="30" y="20" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QDFLQy48Gwb5qH2AuqSx-2" value="/__ADAP_LIT_CTC_20180312/&lt;br&gt;/CTC/Plantillas/Siemens/Kretinga.xlsm&amp;nbsp; &amp;nbsp;(DATOS_ADAPT)&lt;br&gt;ALT+F1&lt;br&gt;importar macros&lt;br&gt;/__MACROS_fec/siemens/MacroFecSiemensA.bas&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="239" width="380" height="81" as="geometry" />
+        <mxCell id="BwQDbkt73YdcrB1kdTZX-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="190" width="830" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="pC3ntmLX9uvUexjrenxn-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;com.indra.davinci.sfec.process.datamanager.SiemensDataManager.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getSiemensCommand(String) (&lt;/span&gt;&lt;span&gt;KRE.IO 1K&amp;nbsp; ---&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;8290-207-26124)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="360" width="395" height="90" as="geometry" />
+        <mxCell id="BwQDbkt73YdcrB1kdTZX-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="BwQDbkt73YdcrB1kdTZX-7">
+          <mxGeometry width="830" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-5" value="FEC SIEMENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="BwQDbkt73YdcrB1kdTZX-7" vertex="1">
+          <mxGeometry x="410" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-9" value="fec-scope_04_siema_a&lt;br&gt;lib&lt;br&gt;&lt;br&gt;com.indra.davinci.common.app.DavinciAppManager" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-7" vertex="1">
+          <mxGeometry x="540" y="91" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QDFLQy48Gwb5qH2AuqSx-2" value="/__ADAP_LIT_CTC_20180312/&lt;br&gt;/CTC/Plantillas/Siemens/Kretinga.xlsm&amp;nbsp; &amp;nbsp;(DATOS_ADAPT)&lt;br&gt;ALT+F1&lt;br&gt;importar macros&lt;br&gt;/__MACROS_fec/siemens/MacroFecSiemensA.bas&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-7" vertex="1">
+          <mxGeometry x="20" y="10" width="390" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="pC3ntmLX9uvUexjrenxn-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;com.indra.davinci.sfec.process.datamanager.SiemensDataManager.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getSiemensCommand(String) (&lt;/span&gt;&lt;span&gt;KRE.IO 1K&amp;nbsp; ---&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;8290-207-26124)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BwQDbkt73YdcrB1kdTZX-7" vertex="1">
+          <mxGeometry x="10" y="130" width="395" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sruSKKzcnbRnCq-W4u0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="BwQDbkt73YdcrB1kdTZX-7" source="QDFLQy48Gwb5qH2AuqSx-2" target="pC3ntmLX9uvUexjrenxn-2" edge="1">
+          <mxGeometry x="-60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
