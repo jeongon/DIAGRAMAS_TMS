@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T06:13:30.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="CaBSSbrHJL2ESGi66x4L" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T06:19:19.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vONq8YCiaIY5qOy05x6W" version="15.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1632" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -31,14 +31,14 @@
         <mxCell id="QDFLQy48Gwb5qH2AuqSx-1" value="n:\dev\wks_lg_jesus\&lt;br&gt;fec_siemens_LITUANIA\&lt;br&gt;test\&lt;br&gt;dummy-ence\resources&lt;br&gt;\config\fec_dummy\&lt;br&gt;ences\Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="100" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sruSKKzcnbRnCq-W4u0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDFLQy48Gwb5qH2AuqSx-2" target="pC3ntmLX9uvUexjrenxn-2">
+        <mxCell id="sruSKKzcnbRnCq-W4u0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QDFLQy48Gwb5qH2AuqSx-2" target="pC3ntmLX9uvUexjrenxn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QDFLQy48Gwb5qH2AuqSx-2" value="/__ADAP_LIT_CTC_20180312/&lt;br&gt;/CTC/Plantillas/Siemens/Kretinga.xlsm&amp;nbsp; &amp;nbsp;(DATOS_ADAPT)&lt;br&gt;ALT+F1&lt;br&gt;importar macros&lt;br&gt;/__MACROS_fec/siemens/MacroFecSiemensA.bas&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-15" y="239" width="380" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="pC3ntmLX9uvUexjrenxn-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="360" width="380" height="40" as="geometry" />
+        <mxCell id="pC3ntmLX9uvUexjrenxn-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;com.indra.davinci.sfec.process.datamanager.SiemensDataManager.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getSiemensCommand(String) (&lt;/span&gt;&lt;span&gt;KRE.IO 1K&amp;nbsp; ---&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;8290-207-26124)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="360" width="395" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
