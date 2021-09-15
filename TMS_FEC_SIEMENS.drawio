@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T06:10:06.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="8s8f0v9pcNP5wAbez9Sc" version="15.2.7" type="github"><diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">7Zhdc6M2FIZ/jWfaCzMGDLEvbQzZTOPdbJz044qRQWAlAhEhbLy/vhLIMVhqm83EbTrZTD7wq8ORec8THckD28vqSwqKzZLEEA+sUVwP7MXAskzXtvgfoexb5WLstkJKUSyDjsIKfYNSHEm1QjEse4GMEMxQ0RcjkucwYj0NUEp2/bCE4P6sBUihIqwigFX1NxSzTatOnNFR/wRRujnMbI7kSAYOwVIoNyAmu54EaxaQnMm3eANpBnKYMz6yBPQR0oHjbxgTTzobWAH/TkS0kRKSYggKVBoRybgclTwkSECGsLC5k2guE/HpbH9ge5QQ1l5ltQexqNWhDO17Cv5i9NkHKvK+4Iav8/Hex7968/F2/HA7rKaxNx2adptmC3AlDZbmsP3BcUqqPIYiizmw57sNYnBVgEiM7jhjXNuwDMvhBGHsEUxoc68N7WjCC2DPS0bJI+yMzEdTpxkRFnb0UfPFdfX55CNvIWWw7kjyeS8hySCjex4iRw9QSNTHU/l6dwTn4hCz6UJzCASShPQ59dFgfiE9/g6/HcXuwOeZRqsrf+l/Xinec0YLcVlQEkEB1T/5vwbRY9pU7EvFMMqh1N/ATXvSt9Meq3aalsZO91xuuoqb3p1wc8h/FvfL5ZX/rg21Tgw1TY2hOj7PZuiFYujN4p1DafY9dOz/GsqJ4uGdv7oLExgNy4gUMByNwxLBDIRgYLmYCX94P3BTccWjmkGYl+H11d397PPVTI1SFd52DJTHFBgx2KI8QgbPJBMZzfwBjFbta12+kwpz81m/hMr67UYTuE7UFT8GcJJEXAcYpTnXIl5c3vDsuSgq4o18JgcyFMdiQi09x6bzZr3gBBRLBcW60IAyORcoUwWUlzGC0fp1SHAlI7kBisJYtNKsKJYg51sm+iEQOFkr7JEGgYluP2Cei4FD4g4EYcibWCja1x9qUcPw5vbLlyCMmFgnsgoDRugraWCRwVfwes+pM27EBd+KLKos238EFsYXJ71XtxzoWDhb3zBNBQVxwNA2hEAtMIMlP14EsSjgEObcPCugsCQV5T1aHElInqBUh0ozR9wWPhB3inC/5IUCFJFwCyJEjJqX/hVYxO7adVwViyRJrOgdYjE5bRKOSoVuN/EmTWIRXH/djyeXu7Xz9MmaVU+reqhCkYvDp+PFcMt/7x7LEKfhAyyrkr984YZCF9jwoxvoEOV4HaIUkBxPMuZ4R6J0GVvGHO+DMnZyKjU1Xej5APqvMGbpFp62lhUFDJE8TGGu3cGGvGeE8vAa/s1ONUbbXl3dp4q01NVsKOvDbx9hmLDj6GmWsgD5saG161mQkbjCzZpV8nfYWcJ+ufVbpFyQiULm67Joko000k8Qi38SRsqfD7OJjJ0JO3LzNK/fOv/fgB2aTo9YS3Pwt3W9cvwGxBaenbPs+vdptb2H9QN/jDr/QewPYr+L2Gc6z0Cs2Gc9f4jbjHU+ebf9PwE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-15T06:13:30.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="CaBSSbrHJL2ESGi66x4L" version="15.2.7" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1632" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="490" width="750" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-5" value="FEC SIEMENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-6" value="CTC - DUMMIE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-7" value="PDS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-8" value="TEST_fec-scope_04_siema_a&lt;br&gt;fec_siemens_LITUANIA&lt;br&gt;&lt;br&gt;com.indra.davinci.fecsiemens.TEST_FecSiemens&lt;br&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="520" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-9" value="fec-scope_04_siema_a&lt;br&gt;lib&lt;br&gt;&lt;br&gt;com.indra.davinci.common.app.DavinciAppManager" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="300" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-10" value="__CTC_DUMMY&lt;br&gt;__PROOF_ctc_simulator&lt;br&gt;&lt;br&gt;com.indra.davinci.ctc.proxyfec.ProxyFECDummy" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="120" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QB4yElVCB4v4jR-u9dC9-11" value="/fec_siemens_LITUANIA/&lt;br&gt;test/dummy-ence/resources/config&lt;br&gt;/fec_dummy/ences/Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="525" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDFLQy48Gwb5qH2AuqSx-1" value="n:\dev\wks_lg_jesus\&lt;br&gt;fec_siemens_LITUANIA\&lt;br&gt;test\&lt;br&gt;dummy-ence\resources&lt;br&gt;\config\fec_dummy\&lt;br&gt;ences\Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sruSKKzcnbRnCq-W4u0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDFLQy48Gwb5qH2AuqSx-2" target="pC3ntmLX9uvUexjrenxn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDFLQy48Gwb5qH2AuqSx-2" value="/__ADAP_LIT_CTC_20180312/&lt;br&gt;/CTC/Plantillas/Siemens/Kretinga.xlsm&amp;nbsp; &amp;nbsp;(DATOS_ADAPT)&lt;br&gt;ALT+F1&lt;br&gt;importar macros&lt;br&gt;/__MACROS_fec/siemens/MacroFecSiemensA.bas&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="239" width="380" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="pC3ntmLX9uvUexjrenxn-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="360" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
