@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T06:46:20.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="U7DHGfyKAwJbIB5NM38O" version="15.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-16T06:54:04.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="BaaF82BrE8gqcLttFgFF" version="15.2.7" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="782" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -90,7 +90,7 @@
           <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-4" value="ConcreteConfigurationManager" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
-          <mxGeometry x="485" y="260" width="240" height="80" as="geometry" />
+          <mxGeometry x="515" y="340" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bgGfWgsuJZD-Mrj2uFv9-1" source="bgGfWgsuJZD-Mrj2uFv9-3" target="bgGfWgsuJZD-Mrj2uFv9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -105,7 +105,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-8" value="ConcreteConfigurationManager" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
-          <mxGeometry x="70" y="250" width="240" height="80" as="geometry" />
+          <mxGeometry x="30" y="350" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-13" value="" style="group" vertex="1" connectable="0" parent="bgGfWgsuJZD-Mrj2uFv9-1">
           <mxGeometry x="490" y="70" width="230" height="100" as="geometry" />
@@ -134,14 +134,17 @@
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-17" value="&lt;span&gt;ConfigurationManager&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
           <mxGeometry x="315" y="170" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bgGfWgsuJZD-Mrj2uFv9-19" value="FEC/modules/sfec&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
-          <mxGeometry x="490" y="370" width="210" height="140" as="geometry" />
+        <mxCell id="bgGfWgsuJZD-Mrj2uFv9-19" value="FEC/modules/sfec&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;communicationSFecList&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;defaultStatusMap &lt;span&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;enceChecksumsMap &lt;span&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;enceMap&lt;span&gt;					&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
+          <mxGeometry x="305" y="250" width="245" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-20" value="fec_siemens_LITUANIA" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
           <mxGeometry x="482.5" y="20" width="237.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgGfWgsuJZD-Mrj2uFv9-21" value="sfec_core_impl" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
           <mxGeometry x="315" y="120" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgGfWgsuJZD-Mrj2uFv9-23" value="FEC/modules/sfec&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;files:&lt;/div&gt;&lt;div&gt;/FEC/modules/sfec/siemens&lt;br&gt;&lt;/div&gt;&lt;div&gt;/FEC/modules/sfec&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;datos:&lt;/div&gt;&lt;div&gt;elements &lt;span&gt;		&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;cachedElements&amp;nbsp;&lt;/div&gt;&lt;div&gt;rules &lt;span&gt;		&lt;/span&gt; &lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;cachedRules &lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;alarms &lt;span&gt;		&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;alarms_pds &lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;rights &lt;span&gt;		&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;lineblocks &lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commandResults&amp;nbsp;&lt;/div&gt;&lt;div&gt;accessPDS &lt;span&gt;		&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;elementsConvert&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="bgGfWgsuJZD-Mrj2uFv9-1">
+          <mxGeometry x="515" y="450" width="225" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
