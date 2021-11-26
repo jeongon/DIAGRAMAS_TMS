@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T07:19:38.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="38ZAVIw9CGBPhOkZTNTv" version="15.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-26T17:42:10.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gmJQpRIY4ITE-vTtAtrC" version="15.8.6" type="github" pages="7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
-    <mxGraphModel dx="1204" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1217" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -418,11 +418,85 @@
         <mxCell id="xMYKnZkuxR_Fg5XXPCaD-0" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="geDX2SOGaTZ50l52r1vT-1">
           <mxGeometry x="580" y="610" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMYKnZkuxR_Fg5XXPCaD-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;/config/modules/sfec/ences/&lt;span style=&quot;background-color: rgb(153 , 51 , 255)&quot;&gt;REO.xml&lt;/span&gt;&lt;br&gt;se definen&lt;br&gt;&lt;ol&gt;&lt;li&gt;Elementos nativos&lt;/li&gt;&lt;li&gt;Mapping: aquí se indican al fec qué elementos (tipos) tratará&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;/fec_siemens_LITUANIA&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;/src/test/dummy-ence/resources&lt;/div&gt;&lt;div&gt;/config/fec_dummy/ences/&lt;span style=&quot;background-color: rgb(153 , 51 , 255)&quot;&gt;REO.xml&lt;/span&gt;&lt;/div&gt;&lt;div&gt;solo elementos nativos&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Elementos nativos: importante para que suba los estados definidos en EscenarioVacio.xml&lt;/li&gt;&lt;li&gt;Mapping. Puede no completarse, parece que no lo usa&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;strokeWidth=6;" vertex="1" parent="geDX2SOGaTZ50l52r1vT-1">
+        <mxCell id="xMYKnZkuxR_Fg5XXPCaD-2" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;/config/modules/sfec/ences/&lt;span style=&quot;background-color: rgb(153 , 51 , 255)&quot;&gt;REO.xml&lt;/span&gt;&lt;br&gt;se definen&lt;br&gt;&lt;ol&gt;&lt;li&gt;Elementos nativos&lt;/li&gt;&lt;li&gt;Mapping: aquí se indican al fec qué elementos (tipos) tratará&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;/fec_siemens_LITUANIA&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;/src/test/dummy-ence/resources&lt;/div&gt;&lt;div&gt;/config/fec_dummy/ences/&lt;span style=&quot;background-color: rgb(153 , 51 , 255)&quot;&gt;REO.xml&lt;/span&gt;&lt;/div&gt;&lt;div&gt;solo elementos nativos&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Elementos nativos: importante para que suba los estados definidos en EscenarioVacio.xml&lt;/li&gt;&lt;li&gt;Mapping. Puede no completarse, parece que no lo usa&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;strokeWidth=6;" vertex="1" parent="geDX2SOGaTZ50l52r1vT-1">
           <mxGeometry x="25" y="590" width="455" height="240" as="geometry" />
         </mxCell>
         <mxCell id="xMYKnZkuxR_Fg5XXPCaD-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255 , 0 , 128)&quot;&gt;FE&lt;/span&gt;: para subir el estado requiere que se complete esta position:&lt;br&gt;&lt;ol&gt;&lt;li&gt;se haya aplicado alguna partial-rule &lt;/li&gt;&lt;li&gt;que defina un field &lt;/li&gt;&lt;li&gt;conto indicado a la position&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;eg. Definir&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 206 , 159)&quot;&gt;&amp;lt;attribute position=&quot;2&quot; value=&quot;FE&quot;/&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;lt;partial-rule from=&quot;signal&quot; to=&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(51 , 255 , 51)&quot;&gt;SIGNAL_BLUE_SIGNAL_RED&lt;/span&gt;&lt;span&gt;&quot;&amp;gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;field from=&quot;SIESHS,SIBEHS,SIBEVS,SIRAHS&quot; to=&quot;2&quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;impone que para subir un mensaje debe recibirse desde la PDS&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;un mensaje de tipo signal (201)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&amp;nbsp;para los campos&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;SIESHS,SIBEHS,SIBEVS,SIRAHS&lt;/li&gt;&lt;li&gt;que aplique a algún valor.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;strokeColor=default;fontColor=default;align=left;" vertex="1" parent="geDX2SOGaTZ50l52r1vT-1">
           <mxGeometry x="710" y="44" width="450" height="256" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sl6j6tYAcTQVYo48oWoe" name="DUDAS MANDOS ESPECIALES">
+    <mxGraphModel dx="1217" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-0" />
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-1" parent="nNXQSXcl_rkNVIioAN0Y-0" />
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-2" target="nNXQSXcl_rkNVIioAN0Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.041;exitY=0.621;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-4" target="nNXQSXcl_rkNVIioAN0Y-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="192" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="220" />
+              <mxPoint x="660" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-12" value="REQUIERE CONFIRMACION" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNXQSXcl_rkNVIioAN0Y-10">
+          <mxGeometry x="-0.001" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-2" target="nNXQSXcl_rkNVIioAN0Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-2" value="fecsiemens&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nNXQSXcl_rkNVIioAN0Y-1">
+          <mxGeometry x="160" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-3" value="pds" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nNXQSXcl_rkNVIioAN0Y-1">
+          <mxGeometry x="160" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-4" target="nNXQSXcl_rkNVIioAN0Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-4" value="control" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nNXQSXcl_rkNVIioAN0Y-1">
+          <mxGeometry x="390" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-5" target="nNXQSXcl_rkNVIioAN0Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-13" value="CANCEL / OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNXQSXcl_rkNVIioAN0Y-6">
+          <mxGeometry x="-0.3563" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-5" value="command windows&lt;br&gt;CTC&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nNXQSXcl_rkNVIioAN0Y-1">
+          <mxGeometry x="585" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-3" target="nNXQSXcl_rkNVIioAN0Y-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="nNXQSXcl_rkNVIioAN0Y-1" source="nNXQSXcl_rkNVIioAN0Y-4" target="nNXQSXcl_rkNVIioAN0Y-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-15" value="TIPO DE CONFIRMACION&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNXQSXcl_rkNVIioAN0Y-14">
+          <mxGeometry x="-0.1465" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNXQSXcl_rkNVIioAN0Y-17" value="REQUIERE CONFIR / KO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nNXQSXcl_rkNVIioAN0Y-1">
+          <mxGeometry x="230" y="230" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
