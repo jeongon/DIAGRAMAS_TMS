@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T07:47:35.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OrBZLej5yAfOUhwGBDzY" version="15.8.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-11-29T17:29:10.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="oAAQCZc5Rv9AwX-ZaxBu" version="15.8.6" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1217" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -501,16 +501,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="TzeiBu0VWlp55iuMsRfT" name="Page-8">
+  <diagram id="TzeiBu0VWlp55iuMsRfT" name="secuence SendCommand">
     <mxGraphModel dx="839" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="_lpd9PbRV89u0sS5Ars3-0" />
         <mxCell id="_lpd9PbRV89u0sS5Ars3-1" parent="_lpd9PbRV89u0sS5Ars3-0" />
         <mxCell id="_lpd9PbRV89u0sS5Ars3-2" value="control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_lpd9PbRV89u0sS5Ars3-1">
           <mxGeometry x="130" y="80" width="70" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="_lpd9PbRV89u0sS5Ars3-3" value="Monitoring" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_lpd9PbRV89u0sS5Ars3-1">
-          <mxGeometry x="320" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="_lpd9PbRV89u0sS5Ars3-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="_lpd9PbRV89u0sS5Ars3-1">
           <mxGeometry y="130" width="40" height="60" as="geometry" />
@@ -526,22 +523,6 @@
         </mxCell>
         <mxCell id="_lpd9PbRV89u0sS5Ars3-9" value="fecsiemens" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_lpd9PbRV89u0sS5Ars3-1">
           <mxGeometry x="450" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="_lpd9PbRV89u0sS5Ars3-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="_lpd9PbRV89u0sS5Ars3-1" source="_lpd9PbRV89u0sS5Ars3-3" target="_lpd9PbRV89u0sS5Ars3-3">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="390" y="140" as="sourcePoint" />
-            <mxPoint x="490" y="140" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="140" />
-              <mxPoint x="410" y="170" />
-              <mxPoint x="390" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_lpd9PbRV89u0sS5Ars3-12" value="init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_lpd9PbRV89u0sS5Ars3-11">
-          <mxGeometry x="-0.3628" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
