@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T11:21:24.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="33t0z3E06kOTYZOvOCVx" version="15.8.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-03T13:30:25.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="hLJ25v-H-gz79V0OBmL9" version="15.8.7" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1217" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -549,7 +549,7 @@
           <mxGeometry x="130" y="80" width="70" height="420" as="geometry" />
         </mxCell>
         <mxCell id="_lpd9PbRV89u0sS5Ars3-4" value="COMMAND WINDOWS&lt;br&gt;ARS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="_lpd9PbRV89u0sS5Ars3-1" vertex="1">
-          <mxGeometry x="20" y="110" width="40" height="60" as="geometry" />
+          <mxGeometry x="20" y="95" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fNqv1g4Kso6csj8vSVPy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_lpd9PbRV89u0sS5Ars3-1" source="_lpd9PbRV89u0sS5Ars3-9" target="fNqv1g4Kso6csj8vSVPy-3">
           <mxGeometry relative="1" as="geometry">
