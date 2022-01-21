@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T13:52:41.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="LDWhXzmJPp2NKNXZuVFY" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T13:55:50.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KgUyNXKqRr1h-464Crld" version="16.4.3" type="github">
   <diagram id="q67RRWeN7a69qG3qLMdX" name="Page-1">
     <mxGraphModel dx="1217" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
             <mxPoint x="260" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uf92G1Q4Abj4CwwrBMvA-19" value="Ences del FEC que se cae" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uf92G1Q4Abj4CwwrBMvA-18" vertex="1" connectable="0">
+        <mxCell id="uf92G1Q4Abj4CwwrBMvA-19" value="Al caer FEC, se notifica cada ENCE disconnected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uf92G1Q4Abj4CwwrBMvA-18" vertex="1" connectable="0">
           <mxGeometry x="-0.178" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -106,10 +106,15 @@
         <mxCell id="uf92G1Q4Abj4CwwrBMvA-28" value="TMS_CTC_SIGNALMONITORING_ENCESTATUS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="440" y="570" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uf92G1Q4Abj4CwwrBMvA-29" value="" style="endArrow=none;html=1;exitX=0.549;exitY=1.006;exitDx=0;exitDy=0;entryX=0.25;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fad9d5;strokeColor=#EA6B66;startSize=6;startArrow=classic;startFill=1;endFill=0;exitPerimeter=0;" parent="1" source="uf92G1Q4Abj4CwwrBMvA-12" target="uf92G1Q4Abj4CwwrBMvA-28" edge="1">
+        <mxCell id="uf92G1Q4Abj4CwwrBMvA-29" value="" style="endArrow=classic;html=1;exitX=0.549;exitY=1.006;exitDx=0;exitDy=0;entryX=0.25;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fad9d5;strokeColor=#EA6B66;startSize=6;startArrow=classic;startFill=1;endFill=1;exitPerimeter=0;" parent="1" source="uf92G1Q4Abj4CwwrBMvA-12" target="uf92G1Q4Abj4CwwrBMvA-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="360" as="sourcePoint" />
             <mxPoint x="380" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unEWerkElzXD60m-R8i5-4" value="Al caer FEC, los ences DISCONNECTED&lt;br&gt;Cada consulta se comprueba&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uf92G1Q4Abj4CwwrBMvA-29">
+          <mxGeometry x="-0.3708" y="4" relative="1" as="geometry">
+            <mxPoint x="35" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uf92G1Q4Abj4CwwrBMvA-31" value="" style="endArrow=classic;html=1;entryX=0.468;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fad9d5;strokeColor=#EA6B66;" parent="1" source="uf92G1Q4Abj4CwwrBMvA-12" target="uf92G1Q4Abj4CwwrBMvA-27" edge="1">
