@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T09:24:30.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="M43Mr_GHpq-8iOkP6H3h" version="16.5.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-02T09:26:26.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ul7R4h6iaIsqL3YLGbHQ" version="16.5.2" type="github" pages="10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1217" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1129,6 +1129,9 @@
         </mxCell>
         <mxCell id="1RYsNFwvVayaVQs1ntnH-20" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;OPERATION CONTROL ACK&amp;nbsp; 432&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fa6800;strokeColor=#C73500;fontColor=#FFFF66;" vertex="1" parent="VXH0yZqTrsr_v41nkPPd-1">
           <mxGeometry x="-442" y="870" width="185" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="1RYsNFwvVayaVQs1ntnH-21" value="COMMAND RELEASE&amp;nbsp; 513" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="VXH0yZqTrsr_v41nkPPd-1">
+          <mxGeometry x="-1002" y="355.25" width="233" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
