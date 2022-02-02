@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T09:15:56.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="5dAyKJGNuKPBIpZr1AYB" version="16.5.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-02T09:18:13.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9rFmZZvfTMiKy2rsUXfb" version="16.5.2" type="github" pages="10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1217" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -913,7 +913,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="secuence SendCommand Simple" id="_FnyX_KDSl6Eqq5bWr7V">
-    <mxGraphModel dx="3197" dy="1087" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2908" dy="931" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="VXH0yZqTrsr_v41nkPPd-0" />
         <mxCell id="VXH0yZqTrsr_v41nkPPd-1" parent="VXH0yZqTrsr_v41nkPPd-0" />
@@ -1080,7 +1080,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1RYsNFwvVayaVQs1ntnH-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;COMMAND RELEASE&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF66;" connectable="0" vertex="1" parent="1RYsNFwvVayaVQs1ntnH-6">
+        <mxCell id="1RYsNFwvVayaVQs1ntnH-7" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;COMMAND RELEASE&amp;nbsp;cr1=true, cr2=false&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF66;" connectable="0" vertex="1" parent="1RYsNFwvVayaVQs1ntnH-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3" y="-16" as="offset" />
           </mxGeometry>
@@ -1108,7 +1108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1RYsNFwvVayaVQs1ntnH-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;COMMAND RELEASE&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF66;" connectable="0" vertex="1" parent="1RYsNFwvVayaVQs1ntnH-12">
+        <mxCell id="1RYsNFwvVayaVQs1ntnH-13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;COMMAND RELEASE&amp;nbsp;&amp;nbsp;cr1=false, cr2=true&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF66;" connectable="0" vertex="1" parent="1RYsNFwvVayaVQs1ntnH-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3" y="-16" as="offset" />
           </mxGeometry>
