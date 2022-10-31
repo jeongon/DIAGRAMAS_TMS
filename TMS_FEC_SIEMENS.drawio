@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T10:30:29.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KMHcxqH6_hb4N4UyMUoA" version="20.5.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-10-31T10:30:48.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lCkvM0Wo82KIBnnEPHma" version="20.5.1" type="github" pages="10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="782" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1136,7 +1136,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="fVXXyKVB0JJLGJPsHwWt" name="Page-9">
+  <diagram id="fVXXyKVB0JJLGJPsHwWt" name="synopticManager">
     <mxGraphModel dx="782" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="bd9vzIzgX_CXdNsWLt4m-0" />
