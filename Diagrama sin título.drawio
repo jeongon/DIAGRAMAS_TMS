@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T11:05:12.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kpfvn8JSWcLatLejgXjL" version="20.5.3" type="github">
-  <diagram id="rZNKcQVRgwQoaFxtKG_b" name="Página-1">
+<mxfile host="app.diagrams.net" modified="2022-11-30T13:01:03.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SBaONkEXbbo1Af-IPMTs" version="20.6.0" type="github">
+  <diagram id="rZNKcQVRgwQoaFxtKG_b" name="fieldStatus Trenes">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -98,7 +98,7 @@
             <mxPoint x="-9" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRtJbHR1mi0dNfsnCUMY-17" target="ZRtJbHR1mi0dNfsnCUMY-18">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZRtJbHR1mi0dNfsnCUMY-17" target="ZRtJbHR1mi0dNfsnCUMY-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1030" y="310" />
@@ -106,7 +106,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-5" value="ACTUALIZAR POSICION" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7piU8O7_xjdNptFkDuD-4">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-5" value="ACTUALIZAR POSICION" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="w7piU8O7_xjdNptFkDuD-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1733" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -145,19 +145,19 @@
         <mxCell id="ZRtJbHR1mi0dNfsnCUMY-35" value="/api/activeplanmng/circulation/create" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="560" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-1" value="TMM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-1" value="TMM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-2" value="TRENES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-2" value="TRENES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w7piU8O7_xjdNptFkDuD-6" target="w7piU8O7_xjdNptFkDuD-8">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w7piU8O7_xjdNptFkDuD-6" target="w7piU8O7_xjdNptFkDuD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="724" y="650" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w7piU8O7_xjdNptFkDuD-8" value="/api/activeplanmng/circulation/position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w7piU8O7_xjdNptFkDuD-8" value="/api/activeplanmng/circulation/position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="650" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
