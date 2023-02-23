@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T12:43:06.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="o64HaQ3Ak77cpJWOFJNX" version="20.8.17" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-23T15:57:49.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="g83gpeT_Y4abBiiRA7Cv" version="20.8.20" type="github" pages="13">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
-    <mxGraphModel dx="1434" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="794" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -357,7 +357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TQhKOSRHg87bvXTYvUB3" name="NUEVO ELEMENTO">
-    <mxGraphModel dx="1217" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="geDX2SOGaTZ50l52r1vT-0" />
         <mxCell id="geDX2SOGaTZ50l52r1vT-1" parent="geDX2SOGaTZ50l52r1vT-0" />
@@ -1328,37 +1328,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NViebnJ9XwtCWD5R9Oxh" name="macros envio mandos">
-    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=5;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=5;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="450" as="targetPoint" />
             <mxPoint x="89.5" y="450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-2" value="interrump" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-2" value="interrump" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1208" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-3" value="front" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-3" value="front" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="100" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=6;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="0Vas3ce9Er5eoUnrUgOq-8" target="0Vas3ce9Er5eoUnrUgOq-13">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="0Vas3ce9Er5eoUnrUgOq-8" target="0Vas3ce9Er5eoUnrUgOq-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-5" value="SEND COMMAND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-4">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-5" value="SEND COMMAND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1174" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="565" as="sourcePoint" />
             <mxPoint x="80" y="565" as="targetPoint" />
@@ -1373,15 +1373,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-30" value="notificacion resultado&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;Todas Macros las del ENCE&lt;/font&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;COMPLETED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;INTERRUPTED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RUNNING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-6">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-30" value="notificacion resultado&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;Todas Macros las del ENCE&lt;/font&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;COMPLETED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;INTERRUPTED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RUNNING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="0Vas3ce9Er5eoUnrUgOq-6" vertex="1" connectable="0">
           <mxGeometry x="0.1955" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-8" value="macros" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-8" value="macros" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="260" y="80" width="100" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="609.5" y="329.5" as="sourcePoint" />
             <mxPoint x="309.5" y="329.5" as="targetPoint" />
@@ -1390,12 +1390,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-10" value="resultado comando (COMMAND LIFE CICLE )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-9">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-10" value="resultado comando (COMMAND LIFE CICLE )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-9" vertex="1" connectable="0">
           <mxGeometry x="0.5" y="-1" relative="1" as="geometry">
             <mxPoint x="56" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=4;" edge="1" parent="1" source="0Vas3ce9Er5eoUnrUgOq-13" target="0Vas3ce9Er5eoUnrUgOq-3">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=4;" parent="1" source="0Vas3ce9Er5eoUnrUgOq-13" target="0Vas3ce9Er5eoUnrUgOq-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="340" y="260" />
@@ -1403,26 +1403,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-12" value="NOTIFICACION DEL COMANDO&amp;nbsp; CSS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-11">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-12" value="NOTIFICACION DEL COMANDO&amp;nbsp; CSS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-11" vertex="1" connectable="0">
           <mxGeometry x="0.5426" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-13" value="control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-13" value="control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="560" y="80" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;startArrow=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#f8cecc;strokeColor=#B85450;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;startArrow=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#f8cecc;strokeColor=#B85450;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="309.5" y="344.5" as="sourcePoint" />
             <mxPoint x="89.5" y="344.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-17" value="notificacion resultado&lt;br&gt;&lt;font color=&quot;#ff8000&quot;&gt;Todas Macros las del ENCE&amp;nbsp;&lt;br&gt;&lt;/font&gt;COMPLETED &lt;br&gt;INTERRUPTED &lt;br&gt;RUNNING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-16">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-17" value="notificacion resultado&lt;br&gt;&lt;font color=&quot;#ff8000&quot;&gt;Todas Macros las del ENCE&amp;nbsp;&lt;br&gt;&lt;/font&gt;COMPLETED &lt;br&gt;INTERRUPTED &lt;br&gt;RUNNING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-16" vertex="1" connectable="0">
           <mxGeometry x="0.2958" y="-1" relative="1" as="geometry">
             <mxPoint x="23" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" edge="1" parent="1" source="0Vas3ce9Er5eoUnrUgOq-3" target="0Vas3ce9Er5eoUnrUgOq-8">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" parent="1" source="0Vas3ce9Er5eoUnrUgOq-3" target="0Vas3ce9Er5eoUnrUgOq-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="240" as="sourcePoint" />
             <mxPoint x="309.5" y="395" as="targetPoint" />
@@ -1432,12 +1432,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-20" value="execute" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-19">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-20" value="execute" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1208" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=5;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="309.5" y="430" as="sourcePoint" />
             <mxPoint x="609.5" y="430" as="targetPoint" />
@@ -1446,12 +1446,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-22" value="SEND COMMAND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-21">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-22" value="SEND COMMAND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-21" vertex="1" connectable="0">
           <mxGeometry x="-0.1174" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-23" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-23" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="609.5" y="530" as="sourcePoint" />
             <mxPoint x="309.5" y="530" as="targetPoint" />
@@ -1460,18 +1460,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-24" value="resultado comando (COMMAND LIFE CICLE )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-23">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-24" value="resultado comando (COMMAND LIFE CICLE )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-23" vertex="1" connectable="0">
           <mxGeometry x="0.5" y="-1" relative="1" as="geometry">
             <mxPoint x="54" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-26" value="is Interrupted&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is Completed?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-26" value="is Interrupted&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is Completed?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="270" y="350" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-29" value="is Interrupted&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is Completed?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-29" value="is Interrupted&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is Completed?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="260.5" y="545" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="500" />
@@ -1482,10 +1482,39 @@
             <mxPoint x="89.5" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Vas3ce9Er5eoUnrUgOq-32" value="NOTIFICACION DEL COMANDO&amp;nbsp; CSS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0Vas3ce9Er5eoUnrUgOq-31">
+        <mxCell id="0Vas3ce9Er5eoUnrUgOq-32" value="NOTIFICACION DEL COMANDO&amp;nbsp; CSS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Vas3ce9Er5eoUnrUgOq-31" vertex="1" connectable="0">
           <mxGeometry x="0.5426" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JMZzkyhLynrTl8Pege3h" name="Monitoring SIL">
+    <mxGraphModel dx="794" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-2" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;S_SM_02 - Signalling Monitoring Service&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#ffffff;strokeColor=#338500;gradientColor=#5ea617;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DTaafXwAx1RKGjFIQxZW-3" target="DTaafXwAx1RKGjFIQxZW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-3" value="Interlocking" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-7" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;gradientColor=#999999;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="224" y="511" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DTaafXwAx1RKGjFIQxZW-11" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;S_SM_02 - Signalling Monitoring Service&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#ffffff;strokeColor=#338500;gradientColor=#5ea617;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264" y="541" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
