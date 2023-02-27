@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T11:31:41.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-irOSUHiKxVy2VixYvIx" version="20.8.23" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-02-27T11:31:47.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ebxPTtI402HEPKy0yvuB" version="20.8.23" type="github" pages="14">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1644,7 +1644,7 @@
         <mxCell id="PtxGBarnk3ITlG0rOVyo-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PtxGBarnk3ITlG0rOVyo-42">
           <mxGeometry x="45" y="95" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PtxGBarnk3ITlG0rOVyo-44" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="PtxGBarnk3ITlG0rOVyo-43" parent="1" source="PtxGBarnk3ITlG0rOVyo-27">
+        <mxCell id="PtxGBarnk3ITlG0rOVyo-44" value="getFieldStatusFromMonitoring(ixl)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="PtxGBarnk3ITlG0rOVyo-43" parent="1" source="PtxGBarnk3ITlG0rOVyo-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="545" as="sourcePoint" />
             <Array as="points">
