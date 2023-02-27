@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T10:37:39.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ouf6Z2vmR2HP3YXsQ10J" version="20.8.23" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-02-27T10:39:04.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5YfxWU7BbW9kquLfz4Yw" version="20.8.23" type="github" pages="14">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1539,7 +1539,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7GnIjScm7BFXfS9pcwI7" name="Página-14">
+  <diagram id="7GnIjScm7BFXfS9pcwI7" name="groupId">
     <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
