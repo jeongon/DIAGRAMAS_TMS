@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T06:59:54.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ESpfE062xX3sk0hLYOAv" version="21.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-29T07:05:42.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SsjqF9iJV76YywGr64H4" version="21.1.1" type="github" pages="15">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1902,22 +1902,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iwtTHP-suqk2fk69ti1e-1" value="JENKINS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="330" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="414" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-2" value="NEXUX" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
-          <mxGeometry x="570" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="700" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-3" value="JFROG" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="710" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="840" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-4" value="RANCHER" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="810" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="940" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-5" value="BITBUCKET" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="90" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-7" value="SONARQUBE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="450" y="50" width="100" height="100" as="geometry" />
+          <mxGeometry x="580" y="50" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-8" value="&lt;pre style=&quot;box-sizing: inherit; font-size: var(--font-size-monospace); overflow-wrap: break-word; margin-top: 0px; margin-bottom: 0px; color: rgb(51, 51, 51); text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;console-output&quot;&gt; &lt;a style=&quot;box-sizing: inherit; text-decoration: var(--link-text-decoration); font-weight: var(--link-font-weight); overflow-wrap: break-word;&quot; href=&quot;https://sonarqube.indra.es/api/new_code_periods/show.protobuf?project=COPEFRVH56%3Atms-ctc-server-signalling-monitoring&amp;amp;branch=2.0.1&quot;&gt;https://sonarqube.indra.es/api/new_code_periods/show.protobuf?project=COPEFRVH56%3Atms-ctc-server-signalling-monitoring&amp;amp;branch=2.0.1&lt;/a&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="35" y="1389.8600000000001" width="900" height="60" as="geometry" />
@@ -1961,23 +1961,26 @@
         <mxCell id="zfJu2WN4XpuxoqNqKAii-3" value="develop" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="630" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CxPaz9gCGycxeiuAEywm-1" value="TAG" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="820" y="240" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="CxPaz9gCGycxeiuAEywm-2" value="develop" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="820" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="970" y="630" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CxPaz9gCGycxeiuAEywm-3" value="test" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="820" y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="970" y="530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CxPaz9gCGycxeiuAEywm-4" value="release" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="820" y="350" width="80" height="80" as="geometry" />
+          <mxGeometry x="970" y="420" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CxPaz9gCGycxeiuAEywm-5" value="TAG&lt;br&gt;ignorará el del pom,.xml&lt;br&gt;eg:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tags: 2.0.1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pom.xml&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.....&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;artifactId&amp;gt;signalling-monitoring&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;	&amp;lt;name&amp;gt;signalling-monitoring&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;2.0.1-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;.....&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="240" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CxPaz9gCGycxeiuAEywm-7" value="IGNORA EL POM.XML de bitbucket&lt;br&gt;UTILIZA el valor del tag&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;eg:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Repository	OPEFRV_GLOBAL_GROUP&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Format&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;maven2&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Component Group&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;com.indra.opefrvtms.ctc&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Component Name&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;signalling-monitoring&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Component Version&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;2.0.1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="240" width="250" height="150" as="geometry" />
+          <mxGeometry x="650" y="235" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CxPaz9gCGycxeiuAEywm-9" value="artifactory.mova.indra.es/docker-opefrv/copefrvh56/tms-ctc-server-signalling-monitoring:2.0.1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="225" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CxPaz9gCGycxeiuAEywm-10" value="Si existe ya en NEXUS el componente con esta version fallará enla creación" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="235" width="250" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
