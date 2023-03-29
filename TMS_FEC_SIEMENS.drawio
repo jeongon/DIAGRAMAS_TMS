@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:11:23.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cu0E5P0-e-_0NidfdvdI" version="21.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:29:47.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eJnW932JtjGL5URHXO8b" version="21.1.1" type="github" pages="15">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1897,7 +1897,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KexiRKTm_8WEC7VKxxSQ" name="pipeline">
-    <mxGraphModel dx="4097" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1994,26 +1994,29 @@
         <mxCell id="CxPaz9gCGycxeiuAEywm-26" value="&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;RELEASE&lt;/span&gt;&lt;br&gt;ENGANCHAN A&lt;br&gt;la definida en el pom.XML&lt;br&gt;&lt;span style=&quot;background-color: rgb(0, 255, 0);&quot;&gt;&lt;b&gt;3.0.0-SNAPSHOT&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="410" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3vw_ewnoeRGEZyoAW2WA-1" value="https://bitbucket.mova.indra.es/projects/COPEFRVH60/repos/tms-infra-server-parent/browse&lt;br&gt;tms-infra-server-parent&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;groupId&amp;gt;com.indra.opefrvtms.infra&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;	&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#ff3333&quot;&gt;tms-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;6.0.0&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;name&amp;gt;TMS Parent&amp;lt;/name&amp;gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="1">
-          <mxGeometry x="170" y="680" width="570" height="120" as="geometry" />
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-1" value="&lt;a href=&quot;https://bitbucket.mova.indra.es/projects/COPEFRVH60/repos/tms-infra-server-parent/browse&quot;&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH60/repos/tms-infra-server-parent/browse&lt;/a&gt;&lt;br&gt;tms-infra-server-parent&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;groupId&amp;gt;com.indra.opefrvtms.infra&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;	&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#ff3333&quot;&gt;tms-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;6.0.0&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;name&amp;gt;TMS Parent&amp;lt;/name&amp;gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="480" y="670" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3vw_ewnoeRGEZyoAW2WA-2" target="3vw_ewnoeRGEZyoAW2WA-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3vw_ewnoeRGEZyoAW2WA-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/tms-ctc-server-parent/browse/pom.xml&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tms-ctc-server-parent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;	&amp;lt;groupId&amp;gt;com.indra.opefrvtms.ctc&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#00cc00&quot;&gt;tms-ctc-server-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;name&amp;gt;tms-ctc-server-parent&amp;lt;/name&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="170" y="840" width="570" height="130" as="geometry" />
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/tms-ctc-server-parent/browse/pom.xml&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/tms-ctc-server-parent/browse/pom.xml&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tms-ctc-server-parent&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;lt;parent&amp;gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;lt;groupId&amp;gt;com.indra.opefrvtms.infra&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#ff3333&quot;&gt;tms-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;lt;version&amp;gt;6.0.0&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;lt;relativePath /&amp;gt; &amp;lt;!-- lookup parent from repository --&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&amp;lt;/parent&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;	&amp;lt;groupId&amp;gt;com.indra.opefrvtms.ctc&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#00cc00&quot;&gt;tms-ctc-server-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;name&amp;gt;tms-ctc-server-parent&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="445" y="830" width="640" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3vw_ewnoeRGEZyoAW2WA-7" target="3vw_ewnoeRGEZyoAW2WA-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;parent&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;groupId&amp;gt;com.indra.opefrvtms.ctc&amp;lt;/groupId&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;artifactId&amp;gt;&lt;font color=&quot;#00cc00&quot;&gt;tms-ctc-server-parent&lt;/font&gt;&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;version&amp;gt;99.99.99-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;relativePath /&amp;gt; &amp;lt;!-- lookup parent from repository --&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;/parent&amp;gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=5;strokeColor=#3333FF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="289" y="1010" width="330" height="120" as="geometry" />
+          <mxGeometry x="610" y="1090" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-8" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1150" width="610" height="260" as="geometry" />
+          <mxGeometry x="750" y="1260" width="610" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="3vw_ewnoeRGEZyoAW2WA-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;tms-ctc-server-common-lib&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/browse&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tms-ctc-server-parent&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-8">
-          <mxGeometry x="10" y="20" width="570" height="40" as="geometry" />
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;tms-ctc-server-signalling-monitoring&lt;/span&gt;/browse&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-8">
+          <mxGeometry x="20" width="570" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-10" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-8">
-          <mxGeometry x="40" y="811" width="250" height="70" as="geometry" />
+          <mxGeometry x="35" y="161" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&amp;lt;version&amp;gt;99.99.99-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-10">
           <mxGeometry y="20" width="250" height="50" as="geometry" />
@@ -2022,7 +2025,7 @@
           <mxGeometry width="250" height="19.2" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-11" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-8">
-          <mxGeometry x="310" y="810" width="250" height="70" as="geometry" />
+          <mxGeometry x="305" y="160" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-12" value="&lt;div&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;	&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-11">
           <mxGeometry y="20" width="250" height="50" as="geometry" />
@@ -2030,17 +2033,94 @@
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-13" value="&lt;font style=&quot;background-color: rgb(0, 255, 255);&quot;&gt;BRANCHES&lt;/font&gt;: [release/3.0.0]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-11">
           <mxGeometry width="250" height="19.2" as="geometry" />
         </mxCell>
-        <mxCell id="3vw_ewnoeRGEZyoAW2WA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3vw_ewnoeRGEZyoAW2WA-8" source="3vw_ewnoeRGEZyoAW2WA-12" target="3vw_ewnoeRGEZyoAW2WA-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-15" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-8">
-          <mxGeometry x="160" y="901" width="250" height="70" as="geometry" />
+          <mxGeometry x="155" y="251" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-16" value="&lt;div&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;	&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;version&amp;gt;2.0.0&amp;lt;/version&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-15">
           <mxGeometry y="20" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-17" value="&lt;span style=&quot;background-color: rgb(0, 230, 230);&quot;&gt;TAG&lt;/span&gt;:2.0.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-15">
           <mxGeometry width="250" height="19.2" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-20" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-8">
+          <mxGeometry x="155" y="30" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-20">
+          <mxGeometry width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-22" value="&lt;div&gt;signalling-monitoring&lt;/div&gt;&lt;div&gt;signalling-monitoring-lib&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-21">
+          <mxGeometry width="130" height="70" as="geometry">
+            <mxRectangle width="130" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-23" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-21">
+          <mxGeometry x="130" width="130" height="70" as="geometry">
+            <mxRectangle width="130" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-24" value="EJEMPLO: signalling-monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-8">
+          <mxGeometry x="10" y="130" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1270" width="610" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-30" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://bitbucket.mova.indra.es/projects/COPEFRVH56/repos/&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;tms-ctc-server-common-lib&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/browse&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="20" width="570" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-31" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="35" y="161" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-32" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&amp;lt;version&amp;gt;99.99.99-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-31">
+          <mxGeometry y="20" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-33" value="&lt;span style=&quot;background-color: rgb(0, 255, 255);&quot;&gt;BRANCHES&lt;/span&gt;:&amp;nbsp; [develop&amp;nbsp; &amp;nbsp; &amp;nbsp;feature/XXXXX]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-31">
+          <mxGeometry width="250" height="19.2" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-34" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="305" y="160" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-35" value="&lt;div&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;	&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;lt;version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/version&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-34">
+          <mxGeometry y="20" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-36" value="&lt;font style=&quot;background-color: rgb(0, 255, 255);&quot;&gt;BRANCHES&lt;/font&gt;: [release/3.0.0]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-34">
+          <mxGeometry width="250" height="19.2" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-37" value="" style="group" vertex="1" connectable="0" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="155" y="251" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-38" value="&lt;div&gt;&amp;lt;artifactId&amp;gt;ctc-api-rest-msg-lib&amp;lt;/artifactId&amp;gt;&lt;/div&gt;&lt;div&gt;	&amp;lt;name&amp;gt;ctc-api-rest-msg-lib&amp;lt;/name&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;version&amp;gt;2.0.0&amp;lt;/version&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-37">
+          <mxGeometry y="20" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-39" value="&lt;span style=&quot;background-color: rgb(0, 230, 230);&quot;&gt;TAG&lt;/span&gt;:2.0.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-37">
+          <mxGeometry width="250" height="19.2" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-40" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="155" y="30" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-40">
+          <mxGeometry width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-42" value="&lt;div&gt;ctc-api-rest-msg-lib&lt;/div&gt;&lt;div&gt;ctc-cache-lib&lt;/div&gt;&lt;div&gt;ctc-connector-lib&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-41">
+          <mxGeometry width="130" height="70" as="geometry">
+            <mxRectangle width="130" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-43" value="&lt;div&gt;ctc-message-dto-lib&lt;/div&gt;&lt;div&gt;ctc-model-db-lib&lt;/div&gt;&lt;div&gt;ctc-postanalysis-lib&lt;/div&gt;&lt;div&gt;ctc-readiness-lib&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-41">
+          <mxGeometry x="130" width="130" height="70" as="geometry">
+            <mxRectangle width="130" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-44" value="EJEMPLO: ctc-api-rest-msg-lib" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="3vw_ewnoeRGEZyoAW2WA-29">
+          <mxGeometry x="10" y="130" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-45" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 27px;&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tms-ctc-server-parent&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Definir versiones de los módulos a Generar&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;ctc-api-rest-msg-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-api-rest-msg-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;		&amp;lt;ctc-cache-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-cache-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;ctc-connector-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-connector-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;ctc-message-dto-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-message-dto-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;ctc-model-db-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-model-db-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;ctc-readiness-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-readiness-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;ctc-postanalysis-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/ctc-postanalysis-lib.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;!-- signalling-monitoring --&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;signalling-monitoring.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/signalling-monitoring.version&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;&amp;lt;signalling-monitoring-lib.version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/signalling-monitoring-lib.version&amp;gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1639" width="510" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-46" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;2&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;tms-ctc-server-common-lib&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Generarlos de acuerdo a como se requieren&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(develop/feature/branch&amp;nbsp; |&amp;nbsp; tag ) y que coincidan con los del tms-ctc-parent&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deberá ser un&amp;nbsp;&lt;/div&gt;develop/feature/branch&amp;nbsp;&lt;br&gt;con&amp;nbsp;&lt;br&gt;3.0.0-SNAPSHOT&lt;br&gt;en el pom.xml" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1640" width="245" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-47" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 27px;&quot;&gt;3&lt;br&gt;&lt;/font&gt;&lt;br&gt;tms-ctc-server-signalling-monitoring&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Resto de módulos&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;tms-ctc-server-common-lib&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deberá ser un&amp;nbsp;&lt;/div&gt;develop/feature/branch&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;con&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3.0.0-SNAPSHOT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;en el pom.xml&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1640" width="245" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
