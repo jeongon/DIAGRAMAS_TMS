@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:29:47.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eJnW932JtjGL5URHXO8b" version="21.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-29T11:26:45.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4YSrk8VsJHxi0aGZza-r" version="21.1.1" type="github" pages="15">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1904,7 +1904,7 @@
         <mxCell id="iwtTHP-suqk2fk69ti1e-1" value="JENKINS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="414" y="120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iwtTHP-suqk2fk69ti1e-2" value="NEXUX" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+        <mxCell id="iwtTHP-suqk2fk69ti1e-2" value="NEXUS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
           <mxGeometry x="790" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iwtTHP-suqk2fk69ti1e-3" value="JFROG" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
