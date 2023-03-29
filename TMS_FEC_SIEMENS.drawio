@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T11:59:00.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5W3ziFBku84bwHZOTQVZ" version="21.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-29T11:59:55.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nvqpEBTjfSzrx2aipDBQ" version="21.1.1" type="github" pages="15">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2141,16 +2141,19 @@
           <mxGeometry x="80" y="2131" width="440" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-54" value="JENKINS&lt;br&gt;1..- parent&lt;br&gt;2.- common&lt;br&gt;3 cada modulo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2171" width="440" height="80" as="geometry" />
+          <mxGeometry x="80" y="2190" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-55" value="4.0.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2130" width="120" height="121" as="geometry" />
+          <mxGeometry x="520" y="2130" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-57" value="MODIFICAR todos los pom.xmls a la&amp;nbsp; 4.0.0&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="2151" width="440" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-59" value="MODIFICAR todos los pom.xmls a la&amp;nbsp; 4.0.0.-SNAPSHOT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="2031" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-60" value="tag 4.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2170" width="440" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
