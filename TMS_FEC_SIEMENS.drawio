@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T11:26:45.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4YSrk8VsJHxi0aGZza-r" version="21.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-29T11:59:00.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5W3ziFBku84bwHZOTQVZ" version="21.1.1" type="github" pages="15">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2121,6 +2121,36 @@
         </mxCell>
         <mxCell id="3vw_ewnoeRGEZyoAW2WA-47" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 27px;&quot;&gt;3&lt;br&gt;&lt;/font&gt;&lt;br&gt;tms-ctc-server-signalling-monitoring&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Resto de módulos&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;tms-ctc-server-common-lib&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deberá ser un&amp;nbsp;&lt;/div&gt;develop/feature/branch&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;con&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3.0.0-SNAPSHOT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;en el pom.xml&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="930" y="1640" width="245" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-48" value="develop / feature&amp;nbsp; &amp;nbsp; &amp;nbsp;999999-SNAPSHOT&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1930" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-49" value="creamos branch tipo RELEASE&lt;br&gt;pasamos a la&amp;nbsp; release/4.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1990" width="440" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-50" value="JENKINS&lt;br&gt;1..- parent&lt;br&gt;2.- common&lt;br&gt;3 cada modulo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2051" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-51" value="4.0.0.-SNAPSHOT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1991" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-52" value="99.99.99-SNAPSHOT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1930" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-53" value="PULL REQUEST a master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2131" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-54" value="JENKINS&lt;br&gt;1..- parent&lt;br&gt;2.- common&lt;br&gt;3 cada modulo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2171" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-55" value="4.0.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2130" width="120" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-57" value="MODIFICAR todos los pom.xmls a la&amp;nbsp; 4.0.0&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2151" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vw_ewnoeRGEZyoAW2WA-59" value="MODIFICAR todos los pom.xmls a la&amp;nbsp; 4.0.0.-SNAPSHOT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2031" width="440" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
