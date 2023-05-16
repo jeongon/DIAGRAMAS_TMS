@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T07:39:16.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ttkaPrV-KwnCLhNoeArE" version="21.2.9" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-05-16T07:52:35.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JKFswP13Lwu06eASiHej" version="21.2.9" type="github" pages="17">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2325,6 +2325,68 @@
         </mxCell>
         <mxCell id="9LdRqFfwEJ0TNu7ZkgAn-12" value="ignite&lt;br&gt;TMSAlarms&lt;br&gt;ixl, List&amp;lt;Alarm&amp;gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="380" y="20" width="140" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s7TOwkFBmN2xgrAcGJ0-" name="circulaciones">
+    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hQBbp84WyiLnm8_HdiJK-1" target="hQBbp84WyiLnm8_HdiJK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-1" value="SIMULADOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQBbp84WyiLnm8_HdiJK-2" target="hQBbp84WyiLnm8_HdiJK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-2" value="FieldStatus&amp;nbsp;&lt;br&gt;Des/Ocupacion" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQBbp84WyiLnm8_HdiJK-4" target="hQBbp84WyiLnm8_HdiJK-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="355" />
+              <mxPoint x="420" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-9" value="webClient&lt;br&gt;getTrainsByTrainDetector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hQBbp84WyiLnm8_HdiJK-8">
+          <mxGeometry x="-0.2471" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQBbp84WyiLnm8_HdiJK-4" target="hQBbp84WyiLnm8_HdiJK-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="355" />
+              <mxPoint x="470" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-11" value="webClient&lt;br&gt;createCirculation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hQBbp84WyiLnm8_HdiJK-10">
+          <mxGeometry x="0.2898" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQBbp84WyiLnm8_HdiJK-4" target="hQBbp84WyiLnm8_HdiJK-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-4" value="trains" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-7" value="activePlanDataAccessService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="445" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQBbp84WyiLnm8_HdiJK-12" value="train&lt;br&gt;${product}ctc${environment}.queue.tracking.trains" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
