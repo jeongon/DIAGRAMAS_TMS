@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T15:15:21.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sfLaUzKyb_dGu0W9cmhA" version="21.3.5" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-05-29T15:27:07.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uGuA_GoXkmOYNO0B7KNl" version="21.3.5" type="github" pages="19">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2522,6 +2522,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZfebpinF6FhlQPClJKdw-39" target="ZfebpinF6FhlQPClJKdw-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2280" y="210" />
+              <mxPoint x="2280" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P9yEnvbfLjTDUsI1HkXn-2" value="trains" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="610" width="820" height="480" as="geometry" />
         </mxCell>
@@ -2716,23 +2724,42 @@
         <mxCell id="ZfebpinF6FhlQPClJKdw-22" value="cache.common.sequence-numbers.trains.key&lt;br&gt;=ctc.tracking.trains" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-20">
           <mxGeometry x="10" y="120" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-30" value="topology" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="125" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-36" value="activeplanmng.operation.service.url" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="105" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-31" value="trains" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-37" value="activeplanmng.dataaccess.service.url&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;createCirculation(CirculationCreationOperation&amp;lt;GeneralData, CurrentStatus&amp;gt;)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;getCirculationByNumberDay(String, long)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;getCirculationByUuid(String)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;getCirculationsActive()&lt;/li&gt;&lt;li style=&quot;&quot;&gt;getTrainsByTrainDetector(String)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="210" width="570" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-32" value="tracking" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-38" value="activeplanmng.realtime.service.url&lt;br&gt;&lt;br&gt;&lt;div&gt;deletePosition(CirculationId)&lt;/div&gt;&lt;div&gt;updatePosition(PositionOperation&amp;lt;CurrentStatus&amp;gt;)&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="400" width="400" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-33" value="monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-40" value="trains-lib" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="55" width="220" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-34" value="data ActivePlan" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-39" value="CirculationService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-40">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-35" value="real ActivePlan" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.816;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfebpinF6FhlQPClJKdw-39" target="ZfebpinF6FhlQPClJKdw-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2395" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZfebpinF6FhlQPClJKdw-39" target="ZfebpinF6FhlQPClJKdw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-44" value="tracking-lib" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="50" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-45" value="Utils" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-44">
+          <mxGeometry x="37" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-47" value="baseUri-signalling-monitoring.path&lt;br&gt;&lt;br&gt;&lt;div&gt;getFieldStatusByFilterUri.httpGet.path&lt;/div&gt;&lt;div&gt;/api/ctc/sm/field-status/filter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getFieldStatusUri.httpPost.path&lt;/div&gt;&lt;div&gt;/api/ctc/sm/field-status/filter/ixl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getAlarmsStatusUri.httpPost.path&lt;/div&gt;&lt;div&gt;/api/ctc/sm/alarms/filter/ixl&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="330" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.586;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZfebpinF6FhlQPClJKdw-45" target="ZfebpinF6FhlQPClJKdw-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
