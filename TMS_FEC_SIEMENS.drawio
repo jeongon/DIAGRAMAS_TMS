@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T15:08:26.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NrOmY9tMBoD47RXtCaT_" version="21.3.5" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-05-29T15:12:48.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hQD2Cy_M2fYDHq-clRzv" version="21.3.5" type="github" pages="19">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2518,7 +2518,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LPNyLiyGBhQPs0QUs54" name="trains architecture">
-    <mxGraphModel dx="1059" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2715,6 +2715,15 @@
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-22" value="cache.common.sequence-numbers.trains.key&lt;br&gt;=ctc.tracking.trains" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-20">
           <mxGeometry x="10" y="120" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-30" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-31" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-32" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
