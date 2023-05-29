@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T15:02:16.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lAwr636EbZj2yYIyoJdY" version="21.3.5" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-05-29T15:08:26.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NrOmY9tMBoD47RXtCaT_" version="21.3.5" type="github" pages="19">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2518,7 +2518,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LPNyLiyGBhQPs0QUs54" name="trains architecture">
-    <mxGraphModel dx="934" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2650,52 +2650,64 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-1" value="topology" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="45" width="250" height="365" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-1" value="topology" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#66FF66;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="850" y="30" width="310" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-3" value="CachePointMovableWithStatusService&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cache.topology.pointmovable.name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TOPOLOGY_POINTMOVABLE&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
-          <mxGeometry x="30" y="65" width="210" height="80" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-23" value="CachePointMovableWithStatusService" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
+          <mxGeometry x="20" y="35" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-4" value="CacheSectionIgnoredService&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cache.topology.sectionignored.name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TOPOLOGY_SECTIONIGNORED&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
-          <mxGeometry x="20" y="150" width="200" height="95" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-24" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;cache.topology.pointmovable.name&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;TOPOLOGY_POINTMOVABLE&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-23">
+          <mxGeometry x="20" y="40" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-5" value="CacheSectionWithStatusService&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;cache.topology.tvpsection.name&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;TOPOLOGY_TVPSECTION&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
-          <mxGeometry x="20" y="255" width="200" height="85" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-26" value="CacheSectionIgnoredService" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;startSize=23;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
+          <mxGeometry x="20" y="180" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-6" value="TrainsService" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="60" width="460" height="880" as="geometry" />
+        <mxCell id="ZfebpinF6FhlQPClJKdw-27" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;cache.topology.sectionignored.name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;TOPOLOGY_SECTIONIGNORED&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-26">
+          <mxGeometry x="20" y="40" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-10" value="CacheTrainsService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-28" value="CacheSectionWithStatusService" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;startSize=23;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-1">
+          <mxGeometry x="20" y="320" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-29" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;cache.topology.tvpsection.name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;TOPOLOGY_TVPSECTION&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-28">
+          <mxGeometry x="20" y="40" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-25" value="trains Service" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#66FF66;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="25" width="480" height="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-6" value="common -lib&lt;br&gt;ctc-cache-lib" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#E6D0DE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-25">
+          <mxGeometry x="10" y="35" width="460" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfebpinF6FhlQPClJKdw-10" value="CacheTrainsService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="20" y="40" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-11" value="&lt;div&gt;cache.trains.trains.name&lt;/div&gt;&lt;div&gt;TRAINS_TRAINS&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-10">
           <mxGeometry x="20" y="40" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-12" value="CacheHeadPositionOfTrainsByTrackService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-12" value="CacheHeadPositionOfTrainsByTrackService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="76" y="180" width="350" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-13" value="&lt;div&gt;cache.trains.headpositionoftrainsbytpvsection.name&lt;/div&gt;&lt;div&gt;TRAINS_HEADPOSITIONOFTRAINSBYTPVSECTION&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-12">
           <mxGeometry x="20" y="40" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-14" value="CacheRearPositionOfTrainsByTrackService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-14" value="CacheRearPositionOfTrainsByTrackService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="76" y="320" width="354" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-15" value="&lt;div&gt;cache.trains.rearpositionoftrainsbytpvsection.name&lt;/div&gt;&lt;div&gt;TRAINS_REARPOSITIONOFTRAINSBYTPVSECTION&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-14">
           <mxGeometry x="20" y="40" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-16" value="CacheCirculationsByCtcTrainsService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-16" value="CacheCirculationsByCtcTrainsService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="110" y="470" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-17" value="&lt;div&gt;cache.trains.circulationsbyctctrain.name&lt;/div&gt;&lt;div&gt;TRAINS_CIRCULATIONSBYCTCTRAIN&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-16">
           <mxGeometry x="20" y="30" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-18" value="CacheTrainsByIxlService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-18" value="CacheTrainsByIxlService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="230" y="40" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-19" value="&lt;div&gt;cache.trains.trainsbyence.name&lt;/div&gt;&lt;div&gt;TRAINS_TRAINSBYENCE&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-18">
           <mxGeometry x="20" y="40" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZfebpinF6FhlQPClJKdw-20" value="CacheSequenceNumbersService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
+        <mxCell id="ZfebpinF6FhlQPClJKdw-20" value="CacheSequenceNumbersService" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#CDA2BE;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-6">
           <mxGeometry x="100" y="620" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ZfebpinF6FhlQPClJKdw-21" value="cache.common.sequence-numbers.name&lt;br&gt;COMMON_SEQUENCE-NUMBERS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ZfebpinF6FhlQPClJKdw-20">
