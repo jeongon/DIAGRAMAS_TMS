@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T15:36:30.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="5x4vCQRb0_gMkpLMphAj" version="21.3.6" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-01T15:36:54.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vWbrnrqNqbYxMi1iykEd" version="21.3.6" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2873,17 +2873,17 @@
           <mxGeometry x="60" y="960" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZZlMYmeMlDgiQ0JHJ3-r-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;${product}ctc${environment}.queue.signalcontrol.commandslifecycle&lt;/div&gt;" style="shape=tape;whiteSpace=wrap;html=1;size=0.23333333333333334;" vertex="1" parent="1">
-          <mxGeometry x="519" y="910" width="400" height="60" as="geometry" />
+          <mxGeometry x="480" y="840" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZZlMYmeMlDgiQ0JHJ3-r-29" value="&lt;div&gt;${product}ctc${environment}.queue.signalcontrol.commandscatalog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MessageNotificationCommandsCatalog&lt;br&gt;&lt;/div&gt;" style="shape=tape;whiteSpace=wrap;html=1;size=0.16;" vertex="1" parent="1">
-          <mxGeometry x="519" y="990" width="370" height="90" as="geometry" />
+          <mxGeometry x="400" y="1050" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZZlMYmeMlDgiQ0JHJ3-r-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZZlMYmeMlDgiQ0JHJ3-r-30" target="ZZlMYmeMlDgiQ0JHJ3-r-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZZlMYmeMlDgiQ0JHJ3-r-35" value="&lt;div&gt;commandReception&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sendCancellation&lt;/div&gt;&lt;div&gt;sendCommand&lt;/div&gt;&lt;div&gt;sendConfirmation&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZlMYmeMlDgiQ0JHJ3-r-32">
           <mxGeometry x="0.1842" y="-1" relative="1" as="geometry">
-            <mxPoint x="-35" y="-42" as="offset" />
+            <mxPoint x="93" y="-41" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZZlMYmeMlDgiQ0JHJ3-r-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZZlMYmeMlDgiQ0JHJ3-r-30" target="ZZlMYmeMlDgiQ0JHJ3-r-29">
