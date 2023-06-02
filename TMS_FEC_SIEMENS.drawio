@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T07:45:23.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="T3EOklsRV_ehTE9g4NZv" version="21.3.6" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-02T07:46:37.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UnC2mx8r4kqmPETM-25f" version="21.3.6" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2497,28 +2497,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-23" value="synoptic manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="540" width="230" height="60" as="geometry" />
+          <mxGeometry x="510" y="390" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hQBbp84WyiLnm8_HdiJK-25" target="hQBbp84WyiLnm8_HdiJK-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-25" value="&lt;br&gt;tmsctcint.queue.synopticmanager.synopticelement" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" parent="1" vertex="1">
-          <mxGeometry x="480" y="730" width="290" height="70" as="geometry" />
+          <mxGeometry x="480" y="480" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hQBbp84WyiLnm8_HdiJK-27" target="hQBbp84WyiLnm8_HdiJK-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-27" value="Notification Manager" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="565" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="565" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQBbp84WyiLnm8_HdiJK-28" value="CTC front" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="565" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="565" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="3LPNyLiyGBhQPs0QUs54" name="trains architecture">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
