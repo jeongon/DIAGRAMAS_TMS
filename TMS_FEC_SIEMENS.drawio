@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T08:42:20.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JZd_n4HGUd6qzk57kzOJ" version="21.3.6" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-02T08:50:09.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vXSmeszfhyOyXoQMBi0-" version="21.3.6" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -913,7 +913,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="secuence SendCommand Simple" id="_FnyX_KDSl6Eqq5bWr7V">
-    <mxGraphModel dx="2603" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="VXH0yZqTrsr_v41nkPPd-0" />
         <mxCell id="VXH0yZqTrsr_v41nkPPd-1" parent="VXH0yZqTrsr_v41nkPPd-0" />
@@ -1173,18 +1173,50 @@
         </mxCell>
         <UserObject label="tmsctcdev.queue.synopticmanager.synopticelement" link="tmsctcdev.queue.synopticmanager.synopticelement" id="GuWJ3Ju2yTTPgyV5EHTI-0">
           <mxCell style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
-            <mxGeometry x="460" y="820" width="330" height="100" as="geometry" />
+            <mxGeometry x="660" y="777" width="330" height="100" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GuWJ3Ju2yTTPgyV5EHTI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bd9vzIzgX_CXdNsWLt4m-1" source="GuWJ3Ju2yTTPgyV5EHTI-2" target="GuWJ3Ju2yTTPgyV5EHTI-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GuWJ3Ju2yTTPgyV5EHTI-2" value="synopticManager" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
-          <mxGeometry x="240" y="830" width="120" height="80" as="geometry" />
+          <mxGeometry x="500" y="900" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GuWJ3Ju2yTTPgyV5EHTI-3" value="notificationManager" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
-          <mxGeometry x="840" y="830" width="120" height="80" as="geometry" />
+          <mxGeometry x="1030" y="740" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="VBKfzf9m07oHUjo_gIs7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bd9vzIzgX_CXdNsWLt4m-1" source="VBKfzf9m07oHUjo_gIs7-0" target="GuWJ3Ju2yTTPgyV5EHTI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;${product}ctc${environment}.queue.&lt;font color=&quot;#0000ff&quot;&gt;tracking.trains&lt;/font&gt;&lt;/div&gt;" link="tmsctcdev.queue.synopticmanager.synopticelement" id="VBKfzf9m07oHUjo_gIs7-0">
+          <mxCell style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
+            <mxGeometry x="30" y="750" width="330" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VBKfzf9m07oHUjo_gIs7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.042;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bd9vzIzgX_CXdNsWLt4m-1" source="VBKfzf9m07oHUjo_gIs7-1" target="GuWJ3Ju2yTTPgyV5EHTI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;${product}ctc${environment}.queue.&lt;font color=&quot;#7f00ff&quot;&gt;signalmonitoring.encestatus&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="tmsctcdev.queue.synopticmanager.synopticelement" id="VBKfzf9m07oHUjo_gIs7-1">
+          <mxCell style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
+            <mxGeometry x="25" y="840" width="350" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VBKfzf9m07oHUjo_gIs7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bd9vzIzgX_CXdNsWLt4m-1" source="VBKfzf9m07oHUjo_gIs7-2" target="GuWJ3Ju2yTTPgyV5EHTI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;${product}ctc${environment}.queue.&lt;font color=&quot;#009900&quot;&gt;fecsimence.fieldstatus&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="tmsctcdev.queue.synopticmanager.synopticelement" id="VBKfzf9m07oHUjo_gIs7-2">
+          <mxCell style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
+            <mxGeometry x="25" y="920" width="355" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VBKfzf9m07oHUjo_gIs7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="bd9vzIzgX_CXdNsWLt4m-1" source="VBKfzf9m07oHUjo_gIs7-3" target="GuWJ3Ju2yTTPgyV5EHTI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;${product}ctc${environment}.queue.&lt;font color=&quot;#999900&quot;&gt;signalcontrol.commandslifecycle&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" link="tmsctcdev.queue.synopticmanager.synopticelement" id="VBKfzf9m07oHUjo_gIs7-3">
+          <mxCell style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="bd9vzIzgX_CXdNsWLt4m-1">
+            <mxGeometry x="20" y="990" width="380" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
