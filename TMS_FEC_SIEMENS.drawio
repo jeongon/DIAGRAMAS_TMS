@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T08:13:54.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jiZspgzLeu7Q1WffJZBS" version="21.3.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-09T08:23:37.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4kPn_9kLiuKQ6TovjH3R" version="21.3.8" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2860,6 +2860,9 @@
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-2" target="j_gVVSBHk_NHYDYtJlhK-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-2" target="j_gVVSBHk_NHYDYtJlhK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-2" value="topologyController.loadElementsIgnored" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2670" y="280" width="240" height="50" as="geometry" />
         </mxCell>
@@ -2899,8 +2902,14 @@
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-15" value="&lt;div&gt;cacheSectionWithStatusService&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="j_gVVSBHk_NHYDYtJlhK-18">
           <mxGeometry x="30" y="10" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j_gVVSBHk_NHYDYtJlhK-23" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cachePointMovableWithStatusService&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-23" value="&lt;div&gt;cacheSectionIgnoredService&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2940" y="270" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-25" value="/api/activeplanmng&lt;br&gt;/circulation/on-track" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="502.5" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-26" value="/api/activeplanmng&lt;br&gt;/circulation/on-track" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="630" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
