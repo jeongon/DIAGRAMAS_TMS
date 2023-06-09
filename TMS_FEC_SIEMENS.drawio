@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T08:23:37.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4kPn_9kLiuKQ6TovjH3R" version="21.3.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-09T08:26:58.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="385KXjg8gaW-zljEL9uW" version="21.3.8" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2872,6 +2872,9 @@
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-4" value="trainsManager.initializeTrains()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2680" y="530" width="190" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-6" target="j_gVVSBHk_NHYDYtJlhK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-6" value="trackingService.initFieldStatus" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2680" y="630" width="190" height="50" as="geometry" />
         </mxCell>
@@ -2908,8 +2911,23 @@
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-25" value="/api/activeplanmng&lt;br&gt;/circulation/on-track" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2900" y="502.5" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j_gVVSBHk_NHYDYtJlhK-26" value="/api/activeplanmng&lt;br&gt;/circulation/on-track" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2895" y="630" width="190" height="50" as="geometry" />
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-26" value="getFieldStatusByFilterUri.httpGet.path&lt;br&gt;=&lt;br&gt;/api/ctc/sm/field-status/filter" style="shape=card;whiteSpace=wrap;html=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="620" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-27" value="tracking.&lt;br&gt;getTopologyManager().&lt;br&gt;setElementMovable(pm.getName(), pm);" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="747.5" width="245" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-28" value="tracking.&lt;br&gt;notifyChange(sectionWithStatus);" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="760" width="210" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.376;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-29" target="j_gVVSBHk_NHYDYtJlhK-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.362;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-29" target="j_gVVSBHk_NHYDYtJlhK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="710" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
