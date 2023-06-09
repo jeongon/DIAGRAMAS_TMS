@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T08:29:44.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TtSaUHtZqnNo1xGhfvF6" version="21.3.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-06-09T08:52:40.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="REPAwewY95wzBtckz1cH" version="21.3.8" type="github" pages="20">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2878,8 +2878,8 @@
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-6" value="trackingService.initFieldStatus" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2680" y="630" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j_gVVSBHk_NHYDYtJlhK-8" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-KOID.json&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-ORAV.json&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-REOL.json&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="130" width="110" height="100" as="geometry" />
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-8" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;sourcePathIxlMaps&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;=&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.cloud.config.uri}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.application.name}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.profiles.active}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.cloud.config.label}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;ixl-maps/&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-KOID.json&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-ORAV.json&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DDAA-REOL.json&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="25" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j_gVVSBHk_NHYDYtJlhK-10" target="j_gVVSBHk_NHYDYtJlhK-18">
           <mxGeometry relative="1" as="geometry">
@@ -2894,7 +2894,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-10" value="topologyController.loadScenary(&quot;clear&quot;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="130" width="260" height="30" as="geometry" />
+          <mxGeometry x="2670" y="130" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-18" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="2920" y="60" width="300" height="100" as="geometry" />
@@ -2952,6 +2952,9 @@
         </mxCell>
         <mxCell id="j_gVVSBHk_NHYDYtJlhK-39" value="occupiedProcess" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2481" y="940" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_gVVSBHk_NHYDYtJlhK-43" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;sourcePathSectionIgnored&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;=&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.cloud.config.uri}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.application.name}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.profiles.active}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;${spring.cloud.config.label}/&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;section-ignored/&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="220" width="160" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
