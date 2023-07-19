@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T15:06:20.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-xgWp3FflXLfGVGSvZxN" version="21.6.2" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-07-19T15:07:25.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OfyceFASkveBh7Tsm7fc" version="21.6.2" type="github" pages="21">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3223,8 +3223,8 @@
         <mxCell id="-ASrPjY73pbsdr_NLBqH-20" value="TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-ASrPjY73pbsdr_NLBqH-21" value="TREN B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-21" value="TREN B&lt;br&gt;¿Como se obtiene la Entidad?&lt;br&gt;o se pasaría el UUID?&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="960" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-ASrPjY73pbsdr_NLBqH-23" value="BORRA TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="850" width="140" height="60" as="geometry" />
