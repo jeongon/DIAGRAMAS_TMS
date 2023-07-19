@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T15:28:20.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="i4JfkImveIEg15ZKCKb7" version="21.3.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-07-19T15:06:20.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-xgWp3FflXLfGVGSvZxN" version="21.6.2" type="github" pages="21">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3154,6 +3154,92 @@
         </mxCell>
         <mxCell id="mT_28D4C39IjSEk-4B46-8" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); line-height: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;PRIORITY,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;NORMAL,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;CRITICAL,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;CRITICAL_CONDITIONAL&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mT_28D4C39IjSEk-4B46-7">
           <mxGeometry x="80" y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6Ve0Piu5H3xNXs9cHtRH" name="Página-21">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-1" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1" target="-ASrPjY73pbsdr_NLBqH-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="410" y="70" as="sourcePoint" />
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-3" value="trains&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CTC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-4" value="ACTIVE PLAN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-5" value="cómo consigue el FRONT&lt;br&gt;CONSIGE los&amp;nbsp; 2 TRENES a dividir???&lt;br&gt;&lt;br&gt;son UUIDs? o son Entidad Train&lt;br&gt;Si A pasa a ser B para qué recuperar B ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-6" value="TREN C (nuevo)&lt;br&gt;&lt;br&gt;id&amp;nbsp; NUEVO ID2&lt;br&gt;uuid NUEVO UUID2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-7" value="TREN B (mismo que A)&lt;br&gt;&lt;br&gt;id&amp;nbsp; TREN6&lt;br&gt;uuid&amp;nbsp; MISMO UUID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="219" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="140" as="sourcePoint" />
+            <mxPoint x="600" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="170" as="sourcePoint" />
+            <mxPoint x="200" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-11" value="TREN A&lt;br&gt;id&amp;nbsp; TREN6&lt;br&gt;uuid&amp;nbsp; UUID1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="20" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-12" value="DUDAS:&lt;br&gt;&lt;br&gt;qué camios en tren B?&lt;br&gt;Tren&amp;nbsp; B no debería ser igual que Tren A ?&lt;br&gt;Tren B y Tren C deben ser Planicados o pueden ser de sistema?&lt;br&gt;De donde saca la info el front para ofrecer TrainB y TrainC&lt;br&gt;El api de split recibe lista de entidades Train, no de UUID. (Pregunta anterior)&lt;br&gt;&lt;br&gt;Si A pasa a ser B, qué sentido tiene recibir B ?&lt;br&gt;&lt;br&gt;cómo se crean los nuevos trenes de cara a posiciones? ocupaciones?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="290" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="55" as="sourcePoint" />
+            <mxPoint x="100" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-16" value="&lt;ol&gt;&lt;li&gt;ofrecer un api en trains para el front que muestre los NumerTrain de trenes a dividir&lt;/li&gt;&lt;li&gt;Crear un API que reciba estos NumberTrain para la division-&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ff9933&quot;&gt;Duda: trabajar con Entidades Train o con NumberTrain&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Dar por hecho que tanto B como C existen en Active Plan, por lo que no se crearan en ActivePlan: sólo en Trains&lt;/li&gt;&lt;li&gt;Como A pasa a ser B, y son identicos&amp;nbsp; determinar los cambios y no es necesario borrar (según estos cambios)&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="480" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-17" value="TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-18" value="uuid del TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="820" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-20" value="TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-21" value="TREN B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-23" value="BORRA TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-24" value="BORRA&amp;nbsp;TREN B&lt;br&gt;(no lo borra en active plan)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="920" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-26" value="TrenResult=getTrain (uuid Tren A)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="780" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-27" value="PERSISTE TrenREsult" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="990" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ASrPjY73pbsdr_NLBqH-29" value="sentido marcha del TREN A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="850" width="166" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
