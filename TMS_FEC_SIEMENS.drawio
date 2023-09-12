@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T13:06:20.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Gm8NUyNDh8dDUE5uweVQ" version="21.7.2" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2023-09-12T13:07:26.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Wypuo4KiohITu884GYg" version="21.7.2" type="github" pages="22">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3245,30 +3245,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BLT3cKmRWDr18zGhiJ_6" name="springboot BEANS">
-    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; @Bean(name = &quot;CSSTemplateReactivePostgres&quot;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="510" width="550" height="30" as="geometry" />
+          <mxGeometry x="150" y="600" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-7" value="&lt;div&gt;&amp;nbsp; public R2dbcEntityTemplate getTemplateReactivePostgres() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return new R2dbcEntityTemplate(this.&lt;font color=&quot;#ff0000&quot;&gt;connectionFactory()&lt;/font&gt;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="540" width="550" height="60" as="geometry" />
+          <mxGeometry x="150" y="630" width="550" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;@ConditionalOnMissingBean(name = { &quot;CSSTemplateReactivePostgres&quot; })&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="120" y="480" width="550" height="30" as="geometry" />
+          <mxGeometry x="150" y="570" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-9" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; @Bean(&quot;CSSPostgresConnectionFactory&quot;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="270" width="550" height="30" as="geometry" />
+          <mxGeometry x="150" y="360" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-10" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; public ConnectionFactory &lt;font color=&quot;#ff0000&quot;&gt;connectionFactory()&lt;/font&gt; {&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return new PostgresqlConnectionFactory(PostgresqlConnectionConfiguration.builder()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .host(this.host)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .port(this.port)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .username(this.username)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .password(this.password)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .database(this.database)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .schema(this.schema)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .build());&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="120" y="300" width="550" height="150" as="geometry" />
+          <mxGeometry x="150" y="390" width="550" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-11" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; @ConditionalOnMissingBean(name = { &quot;CSSPostgresConnectionFactory&quot; })&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="120" y="240" width="550" height="30" as="geometry" />
+          <mxGeometry x="150" y="330" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tfaA-QF2qTw1_Ef-qecH-12" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="550" height="30" as="geometry" />
+          <mxGeometry x="150" y="300" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tfaA-QF2qTw1_Ef-qecH-13" value="&lt;div&gt;@ConditionalOnProperty(name = &quot;operationregistry.ms.service.enable&quot;, havingValue = &quot;false&quot;, matchIfMissing = false)&lt;/div&gt;&lt;div&gt;@Configuration&lt;/div&gt;&lt;div&gt;public class CSSPostgresConfiguration extends AbstractR2dbcConfiguration {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** The Constant LOGGER. */&lt;/div&gt;&lt;div&gt;&amp;nbsp; private static final Logger LOGGER = LoggerFactory.getLogger(CSSPostgresConfiguration.class);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** Postgres alarmmanager schema */&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${product}css${environment}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private String schema;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** Postgres host */&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${spring.r2dbc.postgres.host:}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private String host;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** Postgres port */&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${spring.r2dbc.postgres.port:}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private int port;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** Postgres username */&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${spring.r2dbc.postgres.username:#{null}}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private String username;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /** Postgres password */&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${spring.r2dbc.postgres.password:#{null}}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private String password;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; @Value(&quot;${spring.r2dbc.postgres.database:}&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; private String database;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-270" width="550" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
