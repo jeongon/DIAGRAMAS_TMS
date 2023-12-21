@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" modified="2023-12-21T16:45:20.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="g35WveoWktzWaAb6E-AO" version="22.1.11" type="github">
+  <diagram name="1" id="zgUsaR7_dWjTXPb6fPwR">
+    <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="20.119999999999997" y="-260" width="750" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="vnT1kKItVnR9ySpaY1Qu-1" vertex="1">
+          <mxGeometry width="750" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-3" value="PDS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="vnT1kKItVnR9ySpaY1Qu-1" vertex="1">
+          <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-4" value="TEST_fec-scope_04_siema_a&lt;br&gt;fec_siemens_LITUANIA&lt;br&gt;&lt;br&gt;com.indra.davinci.fecsiemens.TEST_FecSiemens&lt;br&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-1" vertex="1">
+          <mxGeometry x="460" y="40" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-5" value="/fec_siemens_LITUANIA/&lt;br&gt;test/dummy-ence/resources/config&lt;br&gt;/fec_dummy/ences/Escenario_vacio.xml" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-1" vertex="1">
+          <mxGeometry x="40" y="45" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-6" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="20.119999999999997" y="-980" width="830" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="vnT1kKItVnR9ySpaY1Qu-6" vertex="1">
+          <mxGeometry width="819.8780487804878" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-8" value="CTC - DUMMIE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="vnT1kKItVnR9ySpaY1Qu-6" vertex="1">
+          <mxGeometry x="263.1707317073171" y="30" width="151.82926829268294" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-9" value="__CTC_DUMMY&lt;br&gt;__PROOF_ctc_simulator&lt;br&gt;&lt;br&gt;com.indra.davinci.ctc.proxyfec.ProxyFECDummy" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-6" vertex="1">
+          <mxGeometry x="475.7317073170732" y="30" width="283.4146341463415" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-10" value="/__PROOF_ctc_simulator/&lt;br&gt;config/CTC_config.xml&lt;br&gt;config/Subscription.xml&lt;br&gt;config/socket.properties&lt;br&gt;&lt;br&gt;com.indra.davinci.ctc.proxyfec.ProxyFECDummy.sendCommand(String, String)" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-6" vertex="1">
+          <mxGeometry x="10.121951219512194" y="20" width="445.3658536585366" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-11" value="" style="group" parent="vnT1kKItVnR9ySpaY1Qu-6" vertex="1" connectable="0">
+          <mxGeometry x="-10.121951219512194" y="180" width="840.1219512195122" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry width="840.1219512195122" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.886;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" source="vnT1kKItVnR9ySpaY1Qu-14" target="vnT1kKItVnR9ySpaY1Qu-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.1219512195122" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-14" value="FEC SIEMENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="425.1219512195122" y="67.78222222222223" width="121.46341463414635" height="115.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-15" value="fec-scope_04_siema_a&lt;br&gt;lib&lt;br&gt;&lt;br&gt;com.indra.davinci.common.app.DavinciAppManager" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="560.12" y="67.78" width="270.12" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-16" value="/__ADAP_LIT_CTC_20180312/&lt;br&gt;/CTC/Plantillas/Siemens/Kretinga.xlsm&amp;nbsp; &amp;nbsp;(DATOS_ADAPT)&lt;br&gt;ALT+F1&lt;br&gt;importar macros&lt;br&gt;/__MACROS_fec/siemens/MacroFecSiemensA.bas&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="20.24390243902439" y="19.26" width="394.7560975609756" height="100.74" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-17" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;config/modules/sfec/ences/KRE.xml&amp;nbsp; &amp;nbsp; (elementos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;com.indra.davinci.sfec.process.datamanager.SiemensDataManager.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getSiemensCommand(String) (&lt;/span&gt;&lt;span&gt;KRE.IO 1K&amp;nbsp; ---&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;8290-207-26124)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="10.121951219512194" y="140" width="399.8170731707317" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" source="vnT1kKItVnR9ySpaY1Qu-16" target="vnT1kKItVnR9ySpaY1Qu-17" edge="1">
+          <mxGeometry x="-60.73170731707317" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" source="vnT1kKItVnR9ySpaY1Qu-20" target="vnT1kKItVnR9ySpaY1Qu-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-20" value="&lt;div&gt;para jdk 1.6&lt;/div&gt;&lt;div&gt;/lib/rfc1006-1.0.0.jar&lt;/div&gt;&lt;div&gt;/lib/rfc1006-lic-1.0.1.jar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#D5E8D4;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="546.5853658536586" y="376.1720106382979" width="273.2926829268293" height="86.66666666666669" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-21" value="fec_siemens_LITUANIA&lt;br&gt;com.indra.davinci.sfec.connectors.ence.rfc1006.TSAPConnection.sendData(byte[])" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="30.365853658536587" y="376.17350886524827" width="455.4878048780488" height="78.97066666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-22" value="/configuration_gen_fec-scope_04_siema_a_FEC_SIEMENS_A&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;/config/modules/cfec/fec.xml&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;/config/modules/sfec/sfec.xml&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;/config/modules/sfec/siemens.xml&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vnT1kKItVnR9ySpaY1Qu-11" vertex="1">
+          <mxGeometry x="10.121951219512194" y="260" width="455.4878048780488" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vnT1kKItVnR9ySpaY1Qu-23" value="NO SE RECONECTA CUANDO SE REINICIA EL FEC" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="160.12" y="-1070" width="490" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
