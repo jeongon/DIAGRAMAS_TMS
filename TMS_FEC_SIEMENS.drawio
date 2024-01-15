@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T12:32:59.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EGcQt53tQuoRSRGXvIrR" version="22.1.18" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2024-01-15T12:34:54.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2LUoM4qkL7GzZE-CoLyx" version="22.1.18" type="github" pages="24">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3743,18 +3743,18 @@
           <mxGeometry x="45" y="170" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-44" value="enqueueCatenaryStatusMessage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="0MbKb_nGyiGPSAy88AtF-23" source="0MbKb_nGyiGPSAy88AtF-43" target="0MbKb_nGyiGPSAy88AtF-43">
-          <mxGeometry x="0.3333" y="-81" relative="1" as="geometry">
+          <mxGeometry x="0.3333" y="33" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="75" y="210" />
             </Array>
-            <mxPoint x="81" y="81" as="offset" />
+            <mxPoint x="31" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-24" target="0MbKb_nGyiGPSAy88AtF-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="900" />
-              <mxPoint x="640" y="900" />
+              <mxPoint x="776" y="905" />
+              <mxPoint x="776" y="905" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3764,7 +3764,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-24" value="TMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="694" y="750" width="100" height="300" as="geometry" />
+          <mxGeometry x="830" y="755" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-33" target="0MbKb_nGyiGPSAy88AtF-21">
           <mxGeometry relative="1" as="geometry">
@@ -3784,8 +3784,22 @@
         <mxCell id="0MbKb_nGyiGPSAy88AtF-33" value="ESB lib&lt;br&gt;AbstractESBService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="284" y="750" width="100" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-37" value="int scada&lt;br&gt;IsolationsNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="554" y="740" width="100" height="310" as="geometry" />
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-37" value="int scada&lt;br&gt;IsolationsNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;size=25;" vertex="1" parent="1">
+          <mxGeometry x="690" y="745" width="100" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-46" value="int scada&lt;br&gt;ScadaMessageProcessorScheduler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="755" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0MbKb_nGyiGPSAy88AtF-46">
+          <mxGeometry x="45" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-48" value="processQueuedMessages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="0MbKb_nGyiGPSAy88AtF-46" source="0MbKb_nGyiGPSAy88AtF-47" target="0MbKb_nGyiGPSAy88AtF-47">
+          <mxGeometry x="-0.1667" y="85" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="210" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
