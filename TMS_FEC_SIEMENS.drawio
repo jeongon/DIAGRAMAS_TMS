@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T12:35:21.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WWK1qM5wr7vhDIZmEcgG" version="22.1.18" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2024-01-15T13:02:01.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Yn9FiwmbyzN9LzkaxRj7" version="22.1.18" type="github" pages="24">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3660,51 +3660,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jFkrDf53VIefw9QpIx1F" name="SCADA">
-    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-17" target="0MbKb_nGyiGPSAy88AtF-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="110" y="633" />
-              <mxPoint x="150" y="633" />
-              <mxPoint x="150" y="653" />
-              <mxPoint x="160" y="653" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-11" value="catenary status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0MbKb_nGyiGPSAy88AtF-10">
-          <mxGeometry x="-0.6108" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-18" target="0MbKb_nGyiGPSAy88AtF-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="280" as="sourcePoint" />
-            <mxPoint x="140" y="282.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-15" value="HTTP init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0MbKb_nGyiGPSAy88AtF-14">
-          <mxGeometry x="0.2112" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-3" value="TMS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-16" value="ignite" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="555" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-17" value="scada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-18" value="itn-scada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-19" value="artemis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="0MbKb_nGyiGPSAy88AtF-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80.07142857142844" y="860" as="sourcePoint" />
@@ -3719,10 +3678,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="0MbKb_nGyiGPSAy88AtF-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="83.32352941176464" y="940" as="sourcePoint" />
-            <mxPoint x="473.5" y="940" as="targetPoint" />
+            <mxPoint x="83.32352941176464" y="960" as="sourcePoint" />
+            <mxPoint x="473.5" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="83" y="990" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-39" value="MessageNotificationDataScadaCatenaryStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0MbKb_nGyiGPSAy88AtF-38">
@@ -3736,11 +3698,14 @@
         <mxCell id="0MbKb_nGyiGPSAy88AtF-22" value="ESB lib&lt;br&gt;HeartbeatNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="174" y="750" width="100" height="310" as="geometry" />
         </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0MbKb_nGyiGPSAy88AtF-22">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-23" value="int scada&lt;br&gt;CatenaryNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="424" y="750" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0MbKb_nGyiGPSAy88AtF-23">
-          <mxGeometry x="45" y="170" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-44" value="enqueueCatenaryStatusMessage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="0MbKb_nGyiGPSAy88AtF-23" source="0MbKb_nGyiGPSAy88AtF-43" target="0MbKb_nGyiGPSAy88AtF-43">
           <mxGeometry x="0.3333" y="33" relative="1" as="geometry">
@@ -3753,8 +3718,8 @@
         <mxCell id="0MbKb_nGyiGPSAy88AtF-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-24" target="0MbKb_nGyiGPSAy88AtF-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="776" y="905" />
-              <mxPoint x="776" y="905" />
+              <mxPoint x="926" y="900" />
+              <mxPoint x="926" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3764,15 +3729,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-24" value="TMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="830" y="755" width="100" height="300" as="geometry" />
+          <mxGeometry x="980" y="750" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-33" target="0MbKb_nGyiGPSAy88AtF-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="278" y="950" as="sourcePoint" />
-            <mxPoint x="84" y="1010" as="targetPoint" />
+            <mxPoint x="360" y="920.0000000000002" as="sourcePoint" />
+            <mxPoint x="110.31034482758605" y="920.0000000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="284" y="900" />
-              <mxPoint x="284" y="900" />
+              <mxPoint x="150" y="940" />
+              <mxPoint x="150" y="940" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3785,10 +3750,10 @@
           <mxGeometry x="284" y="750" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-37" value="int scada&lt;br&gt;IsolationsNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;size=25;" vertex="1" parent="1">
-          <mxGeometry x="690" y="745" width="100" height="310" as="geometry" />
+          <mxGeometry x="840" y="740" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-46" value="int scada&lt;br&gt;ScadaMessageProcessorScheduler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="560" y="755" width="100" height="300" as="geometry" />
+          <mxGeometry x="710" y="750" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0MbKb_nGyiGPSAy88AtF-46">
           <mxGeometry x="45" y="170" width="10" height="80" as="geometry" />
@@ -3799,6 +3764,62 @@
               <mxPoint x="75" y="210" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-49" value="int scada&lt;br&gt;AbstractScadaService&lt;br&gt;&lt;br&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0MbKb_nGyiGPSAy88AtF-49">
+          <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-52" target="0MbKb_nGyiGPSAy88AtF-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="860" />
+              <mxPoint x="490" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-55" value="sendInitializationRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0MbKb_nGyiGPSAy88AtF-54">
+          <mxGeometry x="-0.2899" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-56" target="0MbKb_nGyiGPSAy88AtF-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="900" />
+              <mxPoint x="480" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-58" value="scadaClient.initializext&amp;nbsp; &amp;nbsp; (HTTP)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0MbKb_nGyiGPSAy88AtF-57">
+          <mxGeometry x="-0.0412" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-60" value="cache.scada.catenary-status-queue.name" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1020" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-60" target="0MbKb_nGyiGPSAy88AtF-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="890" as="sourcePoint" />
+            <mxPoint x="530" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-62" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-47" target="0MbKb_nGyiGPSAy88AtF-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="890" as="sourcePoint" />
+            <mxPoint x="530" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-63" value="cache.esb.hearbeat.name" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1050" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="0MbKb_nGyiGPSAy88AtF-52" target="0MbKb_nGyiGPSAy88AtF-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="890" as="sourcePoint" />
+            <mxPoint x="530" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
