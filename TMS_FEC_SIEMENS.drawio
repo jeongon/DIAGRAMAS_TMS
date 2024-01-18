@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:03:28.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nlxMwXbsNVRdLDzCL5JP" version="22.1.20" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:04:46.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ikzLeCo7uat3ohJTHOLe" version="22.1.20" type="github" pages="25">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3893,19 +3893,25 @@
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-1" value="HABD Nativo&lt;br&gt;Phoenix CMS system&lt;span style=&quot;font-size:11.0pt;line-height:130%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;color:#004254;mso-font-kerning:16.0pt;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:ES;mso-bidi-language:AR-SA;&lt;br/&gt;mso-bidi-font-weight:bold&quot;&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry y="110" width="170" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="lTz25gQx7rgtSXxzw8Gx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+        <mxCell id="lTz25gQx7rgtSXxzw8Gx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="lTz25gQx7rgtSXxzw8Gx-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="330" as="sourcePoint" />
             <mxPoint x="489" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="330" />
+              <mxPoint x="370" y="331" />
+              <mxPoint x="401" y="331" />
+              <mxPoint x="401" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-5" value="Request-train-measurement-RESULT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lTz25gQx7rgtSXxzw8Gx-4">
           <mxGeometry x="0.4852" y="-7" relative="1" as="geometry">
-            <mxPoint x="1" y="-22" as="offset" />
+            <mxPoint x="-22" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-2" value="postman" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="100" height="300" as="geometry" />
+          <mxGeometry x="320" y="130" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="lTz25gQx7rgtSXxzw8Gx-3" target="lTz25gQx7rgtSXxzw8Gx-12">
           <mxGeometry relative="1" as="geometry">
@@ -3918,7 +3924,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-3" value="opefrvirl-iproy-habd-irliproy&lt;br&gt;INTEGRADOR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="414" y="135" width="170" height="300" as="geometry" />
+          <mxGeometry x="440" y="150" width="170" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lTz25gQx7rgtSXxzw8Gx-6" target="lTz25gQx7rgtSXxzw8Gx-3">
           <mxGeometry relative="1" as="geometry">
@@ -3945,10 +3951,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-10" value="opefrvirl-iproy-dummy-habd-irliproy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry y="310" width="100" height="300" as="geometry" />
+          <mxGeometry y="330" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-12" value="opefrvirl-iproy-habd-manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="100" height="300" as="geometry" />
+          <mxGeometry x="620" y="100" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-15" value="IGNITE&lt;br&gt;HABD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="380" y="505" width="150" height="80" as="geometry" />
