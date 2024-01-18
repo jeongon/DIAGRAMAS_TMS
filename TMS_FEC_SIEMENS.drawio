@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T12:21:44.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Yebe8CAi7JrIH_MNxUAl" version="22.1.20" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2024-01-18T12:22:24.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yO05Hdlz5vQAM7jwixfl" version="22.1.20" type="github" pages="25">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3968,6 +3968,19 @@
             <mxPoint x="440" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KrQJHbKU73z0PdUT6e9X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lTz25gQx7rgtSXxzw8Gx-18" target="KrQJHbKU73z0PdUT6e9X-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="630" />
+              <mxPoint x="880" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrQJHbKU73z0PdUT6e9X-11" value="TRIGGER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KrQJHbKU73z0PdUT6e9X-10">
+          <mxGeometry x="0.3122" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-18" value="cassandra" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="560" y="490" width="120" height="50" as="geometry" />
         </mxCell>
@@ -4007,6 +4020,9 @@
             <mxPoint x="290" y="380" as="sourcePoint" />
             <mxPoint x="340" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KrQJHbKU73z0PdUT6e9X-9" value="elasticsearch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="670" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
