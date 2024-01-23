@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T10:05:17.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zuNL-xc0kq1uhJE03cMC" version="22.1.21" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2024-01-23T15:24:23.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gGS149I4yVSgBSIQQUNh" version="22.1.21" type="github" pages="25">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3886,12 +3886,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EtDJl1h5crcPnNV7onEb" name="HABD">
-    <mxGraphModel dx="794" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KrQJHbKU73z0PdUT6e9X-3" value="FRONT&lt;br&gt;/&lt;br&gt;SYNOPTIC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="120" width="100" height="310" as="geometry" />
+          <mxGeometry x="950" y="110" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="KrQJHbKU73z0PdUT6e9X-4" value="TMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="700" width="210" height="620" as="geometry" />
@@ -3900,7 +3900,7 @@
           <mxGeometry x="340" width="350" height="620" as="geometry" />
         </mxCell>
         <mxCell id="KrQJHbKU73z0PdUT6e9X-1" value="GENERADOR MEDIDAS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry width="320" height="620" as="geometry" />
+          <mxGeometry width="270" height="620" as="geometry" />
         </mxCell>
         <mxCell id="lTz25gQx7rgtSXxzw8Gx-1" value="HABD Nativo&lt;br&gt;Phoenix CMS system&lt;span style=&quot;font-size:11.0pt;line-height:130%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;color:#004254;mso-font-kerning:16.0pt;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:ES;mso-bidi-language:AR-SA;&lt;br/&gt;mso-bidi-font-weight:bold&quot;&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="30" y="70" width="170" height="300" as="geometry" />
@@ -4022,7 +4022,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KrQJHbKU73z0PdUT6e9X-9" value="elasticsearch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="680" y="680" width="60" height="80" as="geometry" />
+          <mxGeometry x="740" y="650" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
