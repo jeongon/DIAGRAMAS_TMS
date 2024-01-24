@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T13:20:44.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="L3C6qMXGU24uorm5HXU6" version="22.1.22" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2024-01-24T13:22:34.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iEafzOi6v7Oxx-lmo2NS" version="22.1.22" type="github" pages="25">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3660,17 +3660,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jFkrDf53VIefw9QpIx1F" name="SCADA">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0MbKb_nGyiGPSAy88AtF-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="1380" y="50" width="210" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-77" value="SCADA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="580" y="50" width="790" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-76" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-76" value="SCADA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="140" y="60" width="410" height="580" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeWidth=3;" parent="1" target="0MbKb_nGyiGPSAy88AtF-22" edge="1">
@@ -3907,7 +3907,7 @@
         <mxCell id="R4_IMCUg_luQtvuytuQe-3" value="scada 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="34" y="680" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="R4_IMCUg_luQtvuytuQe-4" value="ESB lib&lt;br&gt;HeartbeatNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="R4_IMCUg_luQtvuytuQe-4" value="SCADA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="350" y="680" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="R4_IMCUg_luQtvuytuQe-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R4_IMCUg_luQtvuytuQe-4">
@@ -3926,7 +3926,7 @@
         </mxCell>
         <mxCell id="R4_IMCUg_luQtvuytuQe-9" value="HTTP&amp;nbsp; init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4_IMCUg_luQtvuytuQe-8">
           <mxGeometry x="0.2263" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="86" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R4_IMCUg_luQtvuytuQe-10" value="scada 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -3937,6 +3937,24 @@
             <Array as="points">
               <mxPoint x="270" y="920" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4_IMCUg_luQtvuytuQe-13" value="hearbeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4_IMCUg_luQtvuytuQe-11">
+          <mxGeometry x="-0.2379" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4_IMCUg_luQtvuytuQe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="R4_IMCUg_luQtvuytuQe-12" target="R4_IMCUg_luQtvuytuQe-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="940" />
+              <mxPoint x="250" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4_IMCUg_luQtvuytuQe-15" value="HTTP&amp;nbsp; init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4_IMCUg_luQtvuytuQe-14">
+          <mxGeometry x="-0.435" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
