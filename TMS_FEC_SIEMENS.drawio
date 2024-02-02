@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T11:19:59.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="C8U6CGcY-YBEIoc6sT7u" version="23.1.0" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2024-02-02T11:24:04.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HOBPcBSA5S5IVD-ZnKN6" version="23.1.0" type="github" pages="25">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4116,6 +4116,9 @@
         <mxCell id="I7IkxkhuBUDDV09vv8On-1" value="AbstractHabdJRpcService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="970" y="1040" width="200" height="450" as="geometry" />
         </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I7IkxkhuBUDDV09vv8On-1">
+          <mxGeometry x="95" y="250" width="15" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="I7IkxkhuBUDDV09vv8On-2" value="com.indra.tms.irl.iproy.habd.jms.&lt;br&gt;NotificationAlarmReceiver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="470" y="1010" width="512" height="540" as="geometry" />
         </mxCell>
@@ -4242,6 +4245,23 @@
         <mxCell id="ZiZrlCUBkxZjjB4tz5rF-2" value="sendRpcOperationsToHABD(alarm)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZiZrlCUBkxZjjB4tz5rF-1">
           <mxGeometry x="-0.0115" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-5" value="ANNOTATION&lt;br&gt;ACNOWLEDGED&lt;br&gt;REPAIRES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-7" value="HabdTrainMeasurementRestApi&lt;br&gt;Feign" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1034.5" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZiZrlCUBkxZjjB4tz5rF-7">
+          <mxGeometry x="95" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="ZiZrlCUBkxZjjB4tz5rF-4" target="ZiZrlCUBkxZjjB4tz5rF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiZrlCUBkxZjjB4tz5rF-10" value=".findTrainMeasurementById(alarm.getIncident().getOriginIncidentId());" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZiZrlCUBkxZjjB4tz5rF-9">
+          <mxGeometry x="0.3923" y="3" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
