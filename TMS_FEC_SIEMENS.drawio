@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T13:22:08.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nx1ArSvwu54jyzQPuAvD" version="23.1.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-02-05T15:35:17.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GDqlMOSjSTyAmNNXkiWz" version="23.1.1" type="github" pages="27">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4339,6 +4339,30 @@
         </mxCell>
         <mxCell id="pN6CR72Tzbr-WQaQj2OC-19" value="en caso de añadir nuevo tag, modificarlo&lt;br&gt;&lt;br&gt;en el despliegue, seleccionarlo&lt;br&gt;&lt;br&gt;revisar el overview de openlens" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="95" width="320" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EqySQw91ZXE8Mip2QK2j" name="IMess Disruption">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dBapked3mUt6WARNQPeO-2" value="NotificationDisruptionReceiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBapked3mUt6WARNQPeO-3" value="irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBapked3mUt6WARNQPeO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.826;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dBapked3mUt6WARNQPeO-4" target="dBapked3mUt6WARNQPeO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBapked3mUt6WARNQPeO-4" value="irl.ie.tms.cispa.disruptions.server.dto.domain.model.messaging.message.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
