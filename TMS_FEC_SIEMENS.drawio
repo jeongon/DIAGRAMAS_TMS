@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T12:48:40.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9r3vUBLPDlzxZT84RLzD" version="23.1.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-02-05T12:51:48.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="chlgzxxcbNo2KUH9_6GP" version="23.1.1" type="github" pages="26">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4281,11 +4281,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pN6CR72Tzbr-WQaQj2OC-1" value="R:\repo\jenkins-common-files\jobs\Jenkinsfile.sd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="100" width="510" height="30" as="geometry" />
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-1" value="https://bitbucket.mova.indra.es/popefrvirl/jenkins-common-files&lt;br&gt;R:\repo\jenkins-common-files\jobs\Jenkinsfile.sd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="510" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pN6CR72Tzbr-WQaQj2OC-2" value="&lt;div&gt;choice(name: &quot;PROJECT_SERVICE_NAME&quot;,&amp;nbsp; choices: &quot;ctc\ninfra\ncss\nclient\nsystem-status\ncots\ncispa\niproy\ntmm\nans\nfakeixl&quot;,&lt;/div&gt;&lt;div&gt;description: &quot;The Name of the Project Service.\nEg: &#39;ctc&#39;&quot;),&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="130" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-3" value="https://jenkins.mova.indra.es/view/2%20-%20Proyectos/job/POPEFRVIRL/job/COMMON-JOBS/job/SD-SERVICES/build?delay=0sec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="540" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
