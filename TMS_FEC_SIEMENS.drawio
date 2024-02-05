@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T13:09:05.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FiWmAfHN0NYwyr4wsQVx" version="23.1.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-02-05T13:22:08.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nx1ArSvwu54jyzQPuAvD" version="23.1.1" type="github" pages="26">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4316,6 +4316,29 @@
         </mxCell>
         <mxCell id="pN6CR72Tzbr-WQaQj2OC-12" value="2 DESPLEGAR" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-13" value="AWS codecommit&lt;br&gt;&lt;br&gt;&amp;nbsp;https://iamcodecommit-at-432661976972:CXghuvTwPVb%2F%2FUZb3vw6DKV3Pbe4nNczs2YnkgrV9jY%3D@git-codecommit.eu-west-1.amazonaws.com/v1/repos/POPEFRVIRL-irl-configuration&lt;br&gt;bit bucket&lt;br&gt;&lt;br&gt;https://bitbucket.mova.indra.es/projects/POPEFRVIRL/repos/irl-configuration/browse/server/iproy/fec-signalling/application-mhen.properties" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2270" width="700" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fec-signalling.service.interlocking.name=MHEN&lt;/div&gt;&lt;div&gt;#fec-signalling.service.instance.name=MHEN-${random.value}&lt;/div&gt;&lt;div&gt;fec-signalling.service.instance.name=MHEN-DEV-1&lt;/div&gt;&lt;div&gt;#fec-signalling.active.channel.name=ChannelA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fec-signalling.MHEN.channelLinks=[\&lt;/div&gt;&lt;div&gt;{&quot;name&quot;:&quot;ChannelA&quot;, &quot;host&quot;:&quot;fake-ixl-player-mhen.popefrvirl-int02.svc.cluster.local&quot;, &quot;port&quot;:10000},\&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;{&quot;name&quot;:&quot;ChannelB&quot;, &quot;host&quot;:&quot;fake-ixl-player-mhen.popefrvirl-int02.svc.cluster.local&quot;, &quot;port&quot;:10000}]&lt;/span&gt;&lt;/div&gt;" link="https://bitbucket.mova.indra.es/projects/POPEFRVIRL/repos/irl-configuration/browse/server/iproy/fec-signalling/application-mhen.properties" id="pN6CR72Tzbr-WQaQj2OC-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+            <mxGeometry x="105" y="2390" width="680" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-15" value="tener en cuenta los ingresses&lt;br&gt;y definir los puertos en el helm&lt;br&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;- name: server&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 206, 159);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; port: 10000&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 206, 159);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; protocol: TCP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 206, 159);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Tener en cuenta los &lt;b&gt;2 repos de configuracion&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;en el cloudconfig de &lt;b&gt;AWS manual git pull&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2360" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-16" value="tags que debe coincidir con lo que se despliega y se activa&lt;br&gt;&lt;br&gt;nombre&lt;br&gt;&lt;br&gt;imagen&lt;br&gt;&lt;br&gt;profiles activos&lt;br&gt;&lt;br&gt;secrets" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1790" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-17" value="tags que debe coincidir con lo que se despliega y se activa&lt;br&gt;&lt;br&gt;nombre&lt;br&gt;&lt;br&gt;imagen&lt;br&gt;&lt;br&gt;servers...." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="760" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-18" value="tags que debe coincidir con lo que se despliega y se activa&lt;br&gt;&lt;br&gt;nombre&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="380" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pN6CR72Tzbr-WQaQj2OC-19" value="en caso de añadir nuevo tag, modificarlo&lt;br&gt;&lt;br&gt;en el despliegue, seleccionarlo&lt;br&gt;&lt;br&gt;revisar el overview de openlens" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="95" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
