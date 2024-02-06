@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T15:35:17.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GDqlMOSjSTyAmNNXkiWz" version="23.1.1" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2024-02-06T08:39:10.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="B6u-wT2eWQKv7qAmkVC5" version="23.1.1" type="github" pages="27">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4348,21 +4348,43 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dBapked3mUt6WARNQPeO-2" value="NotificationDisruptionReceiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="180" width="280" height="60" as="geometry" />
+        <mxCell id="dBapked3mUt6WARNQPeO-2" value="NotificationDisruptionReceiver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="70" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBapked3mUt6WARNQPeO-3" value="irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="340" height="60" as="geometry" />
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBapked3mUt6WARNQPeO-3" target="4LCTGwoSyJFfsNikXEeD-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBapked3mUt6WARNQPeO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.826;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dBapked3mUt6WARNQPeO-4" target="dBapked3mUt6WARNQPeO-3">
+        <mxCell id="dBapked3mUt6WARNQPeO-3" value="irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="220" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBapked3mUt6WARNQPeO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.47;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dBapked3mUt6WARNQPeO-4" target="dBapked3mUt6WARNQPeO-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="380" y="230" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBapked3mUt6WARNQPeO-4" value="irl.ie.tms.cispa.disruptions.server.dto.domain.model.messaging.message.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBapked3mUt6WARNQPeO-4" value="irl.ie.tms.cispa.disruptions.server.dto.domain.model.messaging.message.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges.&lt;br&gt;MessageNotificationNoticesThirdPartyChanges()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="130" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-1" value="&lt;div&gt;import com.indra.tms.irl.messaging.disruption.data.DisruptionData;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="585" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;com.indra.tms.irl.messaging.model.elastic.disruption.Disruption;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-3" value="&amp;nbsp;irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="664.5" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LCTGwoSyJFfsNikXEeD-4" target="4LCTGwoSyJFfsNikXEeD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-4" value="&amp;nbsp;irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-7" value="&amp;nbsp;irl.ie.integ.messaging.disruption.data.DisruptionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="874.5" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCTGwoSyJFfsNikXEeD-8" value="IMessagingElasticsearchService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
