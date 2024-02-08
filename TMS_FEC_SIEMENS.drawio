@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T11:09:34.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hDGHF21VMZCF6TpPulia" version="23.1.1" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2024-02-08T11:12:01.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="LQHNB3QbvOYA3_3Zo9To" version="23.1.1" type="github" pages="27">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3687,20 +3687,21 @@
             <mxPoint x="111" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="0MbKb_nGyiGPSAy88AtF-43" edge="1">
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90.00352941176465" y="350" as="sourcePoint" />
-            <mxPoint x="641.68" y="380" as="targetPoint" />
+            <mxPoint x="59.5" y="370" as="sourcePoint" />
+            <mxPoint x="785" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="351" />
-              <mxPoint x="438" y="351" />
-              <mxPoint x="438" y="350" />
+              <mxPoint x="130" y="370" />
+              <mxPoint x="130" y="371" />
+              <mxPoint x="438" y="371" />
+              <mxPoint x="438" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-39" value="MessageNotificationDataScadaCatenaryStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0MbKb_nGyiGPSAy88AtF-38" vertex="1" connectable="0">
           <mxGeometry x="-0.1544" y="2" relative="1" as="geometry">
-            <mxPoint x="108" y="2" as="offset" />
+            <mxPoint x="105" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-21" value="scada nativo&lt;br&gt;dummy scada" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
