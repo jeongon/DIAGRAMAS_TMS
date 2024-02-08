@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T11:08:31.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_1XGibQQWtOZtw9iGbaB" version="23.1.1" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2024-02-08T11:09:34.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hDGHF21VMZCF6TpPulia" version="23.1.1" type="github" pages="27">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3704,7 +3704,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-21" value="scada nativo&lt;br&gt;dummy scada" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="30" y="120" width="100" height="300" as="geometry" />
+          <mxGeometry x="10" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-22" value="ESB lib&lt;br&gt;HeartbeatNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="416" y="130" width="100" height="310" as="geometry" />
