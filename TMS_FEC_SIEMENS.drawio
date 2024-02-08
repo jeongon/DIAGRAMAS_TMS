@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T10:42:40.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="v-4dEYg6-zw8r0Fec-Pe" version="23.1.1" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2024-02-08T11:08:31.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_1XGibQQWtOZtw9iGbaB" version="23.1.1" type="github" pages="27">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -3703,7 +3703,7 @@
             <mxPoint x="108" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MbKb_nGyiGPSAy88AtF-21" value="scada" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="0MbKb_nGyiGPSAy88AtF-21" value="scada nativo&lt;br&gt;dummy scada" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="30" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="0MbKb_nGyiGPSAy88AtF-22" value="ESB lib&lt;br&gt;HeartbeatNotificationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -3899,8 +3899,8 @@
         <mxCell id="R4_IMCUg_luQtvuytuQe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="R4_IMCUg_luQtvuytuQe-3" target="R4_IMCUg_luQtvuytuQe-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="790" />
-              <mxPoint x="170" y="790" />
+              <mxPoint x="150" y="790" />
+              <mxPoint x="150" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3912,7 +3912,7 @@
         <mxCell id="R4_IMCUg_luQtvuytuQe-3" value="scada 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="34" y="680" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="R4_IMCUg_luQtvuytuQe-4" value="SCADA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="R4_IMCUg_luQtvuytuQe-4" value="SCADA TMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="R4_IMCUg_luQtvuytuQe-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="R4_IMCUg_luQtvuytuQe-4" vertex="1">
@@ -3976,8 +3976,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vV-1jT6jJosBMmDgCUKf-2" value="PRESENT UP&amp;nbsp;&lt;br&gt;ABSENT DOWN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="vV-1jT6jJosBMmDgCUKf-2" value="PRESENT UP&amp;nbsp;&lt;br&gt;ABSENT DOWN&lt;br&gt;UNKOWN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="650" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
