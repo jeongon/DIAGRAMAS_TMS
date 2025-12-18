@@ -4998,7 +4998,7 @@
             <mxPoint x="480" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4XOx59c3RLxK9xGR9UIK-19" edge="1" parent="1" source="4XOx59c3RLxK9xGR9UIK-14" style="endArrow=classic;html=1;rounded=0;" target="4XOx59c3RLxK9xGR9UIK-8" value="dependencia">
+        <mxCell id="4XOx59c3RLxK9xGR9UIK-19" edge="1" parent="1" source="4XOx59c3RLxK9xGR9UIK-14" style="endArrow=classic;html=1;rounded=0;" target="4XOx59c3RLxK9xGR9UIK-8" value="dependencia pom.xml">
           <mxGeometry height="50" relative="1" width="50" x="-0.0847" y="7" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="411" y="300" as="sourcePoint" />
@@ -5028,6 +5028,11 @@
             </Array>
             <mxPoint x="300" y="369.9999999999999" as="sourcePoint" />
             <mxPoint x="606.7179882264866" y="143.28201177351366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4XOx59c3RLxK9xGR9UIK-39" connectable="0" parent="4XOx59c3RLxK9xGR9UIK-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" value="POR EJEMPLO: HORA DE SIMULACION" vertex="1">
+          <mxGeometry relative="1" x="0.4844" y="4" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4XOx59c3RLxK9xGR9UIK-24" edge="1" parent="1" source="4XOx59c3RLxK9xGR9UIK-5" style="endArrow=classic;html=1;rounded=0;" target="4XOx59c3RLxK9xGR9UIK-35" value="implementa">
@@ -5068,12 +5073,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4XOx59c3RLxK9xGR9UIK-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="IDetectorsSubscriber" vertex="1">
-          <mxGeometry height="80" width="120" x="740" y="180" as="geometry" />
+          <mxGeometry height="80" width="120" x="750" y="200" as="geometry" />
         </mxCell>
         <mxCell id="4XOx59c3RLxK9xGR9UIK-37" edge="1" parent="1" source="4XOx59c3RLxK9xGR9UIK-10" style="endArrow=classic;html=1;rounded=0;fontColor=#33001A;fontSize=12;strokeWidth=5;strokeColor=#FF3333;verticalAlign=bottom;" target="4XOx59c3RLxK9xGR9UIK-35" value="usa">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="450" y="270" as="sourcePoint" />
             <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4XOx59c3RLxK9xGR9UIK-38" connectable="0" parent="4XOx59c3RLxK9xGR9UIK-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" value="ACTUALIZACION ESTADOS" vertex="1">
+          <mxGeometry relative="1" x="0.5762" y="-2" as="geometry">
+            <mxPoint x="-8" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
