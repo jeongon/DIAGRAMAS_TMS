@@ -5230,7 +5230,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3GsDUb0zRRj06qtPBkbm-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;div&gt;funccional&lt;/div&gt;com.indra.sim.apps.ence.elementosExtra" vertex="1">
-          <mxGeometry height="780" width="820" x="380" y="90" as="geometry" />
+          <mxGeometry height="780" width="820" x="380" y="70" as="geometry" />
         </mxCell>
         <mxCell id="3GsDUb0zRRj06qtPBkbm-7" parent="3GsDUb0zRRj06qtPBkbm-6" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ABA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="205" y="50" as="geometry" />
@@ -5292,8 +5292,11 @@
         <mxCell id="3GsDUb0zRRj06qtPBkbm-47" parent="3GsDUb0zRRj06qtPBkbm-51" style="rounded=1;whiteSpace=wrap;html=1;" value="estadoCable (vía Incidencias/ocupacion/mando ILGC)&lt;div&gt;estado (mandoCritico: ALGC/ILGC)&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="350" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="3GsDUb0zRRj06qtPBkbm-61" connectable="0" parent="3GsDUb0zRRj06qtPBkbm-6" style="group" value="" vertex="1">
-          <mxGeometry height="150" width="300" x="140" y="440" as="geometry" />
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-104" connectable="0" parent="3GsDUb0zRRj06qtPBkbm-6" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="300" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-61" connectable="0" parent="3GsDUb0zRRj06qtPBkbm-104" style="group" value="" vertex="1">
+          <mxGeometry height="150" width="300" as="geometry" />
         </mxCell>
         <mxCell id="3GsDUb0zRRj06qtPBkbm-62" parent="3GsDUb0zRRj06qtPBkbm-61" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre;&quot;&gt;GeneradorAuxiliar (diesel)&lt;/span&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="150" width="265.11627906976736" x="20.930232558139533" as="geometry" />
@@ -5310,8 +5313,26 @@
         <mxCell id="3GsDUb0zRRj06qtPBkbm-94" parent="3GsDUb0zRRj06qtPBkbm-62" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color:#ffffff;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ErrorGenerador&lt;/span&gt;.&lt;span style=&quot;font-style:italic;font-weight:bold;text-decoration:underline;text-decoration-style:solid;text-decoration-color:#0066cc;color:#0066cc;&quot;&gt;FALSE&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="265.11627906976736" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="3GsDUb0zRRj06qtPBkbm-66" parent="3GsDUb0zRRj06qtPBkbm-6" style="rounded=1;whiteSpace=wrap;html=1;" value="Estado vía comando &lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;AAES / DAES &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="299.99999999999994" x="140" y="590" as="geometry" />
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-66" parent="3GsDUb0zRRj06qtPBkbm-104" style="rounded=1;whiteSpace=wrap;html=1;" value="Estado vía comando &lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;AAES / DAES &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="299.99999999999994" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-105" connectable="0" parent="3GsDUb0zRRj06qtPBkbm-6" style="group" value="" vertex="1">
+          <mxGeometry height="130" width="300" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-106" connectable="0" parent="3GsDUb0zRRj06qtPBkbm-105" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-107" parent="3GsDUb0zRRj06qtPBkbm-106" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color:#ffffff;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;GestorIluminacionDiaNoche&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="73.33333333333334" width="265.11627906976736" x="20.930232558139533" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-108" parent="3GsDUb0zRRj06qtPBkbm-107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="idFec" vertex="1">
+          <mxGeometry height="21.666666666666668" width="265.11627906976736" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-109" parent="3GsDUb0zRRj06qtPBkbm-107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color:#ffffff;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ModoIluminacion&lt;/span&gt;.&lt;span style=&quot;color:#0000c0;font-style:italic;font-weight:bold;&quot;&gt;AUTO&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="21.666666666666668" width="265.11627906976736" y="51.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="3GsDUb0zRRj06qtPBkbm-112" parent="3GsDUb0zRRj06qtPBkbm-106" style="rounded=1;whiteSpace=wrap;html=1;" value="Estado vía comando AUTO / DAY / NIGHT&lt;div&gt;Estado AUTO&amp;nbsp; cálculo 8:00-&amp;gt;DAY-&amp;gt;18:00&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36.67" width="300" y="73.33" as="geometry" />
         </mxCell>
         <mxCell id="3GsDUb0zRRj06qtPBkbm-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;div&gt;protocol&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorDavinci.fec.connectors.ence.converter&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="730" width="740" x="-390" y="100" as="geometry" />
