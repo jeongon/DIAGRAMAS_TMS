@@ -6026,7 +6026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E3GyQWG43PmhGByIU2kZ" name="SIM EST comuniaciones">
-    <mxGraphModel dx="1344" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6222,22 +6222,32 @@
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-14" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="r6gMPD3ejlN1ejnrWnAr-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-26" connectable="0" parent="r6gMPD3ejlN1ejnrWnAr-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CANAL CLI" vertex="1">
-          <mxGeometry relative="1" x="0.3147" y="2" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-49" connectable="0" parent="r6gMPD3ejlN1ejnrWnAr-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-align: left; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;${product}${context}${environment}.tms.sim.synoptic.notification.simsynopticdto&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.065" y="1" as="geometry">
+            <mxPoint x="148" y="33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-2" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="artemis" vertex="1">
           <mxGeometry height="100" width="260" x="190" y="1350" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CLIENT" vertex="1">
-          <mxGeometry height="60" width="30" x="880" y="1370" as="geometry" />
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CLIENTE&lt;br&gt;WEB" vertex="1">
+          <mxGeometry height="60" width="30" x="1090" y="1330" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-17" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="r6gMPD3ejlN1ejnrWnAr-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-17" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r6gMPD3ejlN1ejnrWnAr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1360" />
+              <mxPoint x="900" y="1360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="notification manager" vertex="1">
-          <mxGeometry height="60" width="120" x="620" y="1370" as="geometry" />
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-47" connectable="0" parent="r6gMPD3ejlN1ejnrWnAr-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WEB PROTOCOL (FLUX)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4566" y="3" as="geometry">
+            <mxPoint x="75" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#FFFFFF;strokeColor=#C73500;fontSize=15;" value="notification manager" vertex="1">
+          <mxGeometry height="60" width="150" x="630" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-13" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#3399FF;" target="r6gMPD3ejlN1ejnrWnAr-2">
           <mxGeometry relative="1" as="geometry">
@@ -6258,42 +6268,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-24" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" target="r6gMPD3ejlN1ejnrWnAr-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="1510" />
+              <mxPoint x="207.42" y="1510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-25" connectable="0" parent="r6gMPD3ejlN1ejnrWnAr-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CANAL CLI" vertex="1">
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-25" connectable="0" parent="r6gMPD3ejlN1ejnrWnAr-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-align: left; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;${product}${context}${environment}.tms.sim.synoptic.notification.simsynopticdto&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.4528" y="3" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-12" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].destination=&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;${product}${context}${environment}.tms.sim.trainmanager.notification.trainalldata&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].id=&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;TRAINALLDATA&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].messageType=TRAINALLDATA&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="600" x="160" y="1109" as="geometry" />
+          <mxGeometry height="60" width="600" x="16" y="1109" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-32" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="290" x="290" y="1570" as="geometry" />
+          <mxGeometry height="90" width="290" x="150" y="1600" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-20" parent="r6gMPD3ejlN1ejnrWnAr-32" style="rounded=1;whiteSpace=wrap;html=1;" value="SYNOPTIC" vertex="1">
           <mxGeometry height="90" width="290" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-21" parent="r6gMPD3ejlN1ejnrWnAr-32" style="rounded=1;whiteSpace=wrap;html=1;" value="notification manager" vertex="1">
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-21" parent="r6gMPD3ejlN1ejnrWnAr-32" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFB366;" value="notification manager" vertex="1">
           <mxGeometry height="35" width="70" x="210" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-33" connectable="0" parent="1" style="group" value="" vertex="1">
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-33" connectable="0" parent="1" style="group;fontColor=#FFCC99;" value="" vertex="1">
           <mxGeometry height="90" width="290" x="20" y="1200" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-34" parent="r6gMPD3ejlN1ejnrWnAr-33" style="rounded=1;whiteSpace=wrap;html=1;" value="TRAIN MANAGER" vertex="1">
           <mxGeometry height="90" width="290" as="geometry" />
         </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-35" parent="r6gMPD3ejlN1ejnrWnAr-33" style="rounded=1;whiteSpace=wrap;html=1;" value="notification manager" vertex="1">
-          <mxGeometry height="35" width="70" x="210" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-38" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="290" x="500" y="1570" as="geometry" />
-        </mxCell>
-        <mxCell id="r6gMPD3ejlN1ejnrWnAr-40" parent="r6gMPD3ejlN1ejnrWnAr-38" style="rounded=1;whiteSpace=wrap;html=1;" value="notification manager" vertex="1">
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-35" parent="r6gMPD3ejlN1ejnrWnAr-33" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFCC99;" value="notification manager" vertex="1">
           <mxGeometry height="35" width="70" x="210" y="40" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;# TRAIN events&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;subscribe.trainmanager.trainalldata.payload=&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;TRAINALLDATA&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;subscribe.trainmanager.trainalldata.origin=&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;${product}${context}${environment}.tms.sim.trainmanager.notification.trainalldata&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="660" x="540" y="1500" as="geometry" />
+          <mxGeometry height="60" width="660" x="20" y="1694" as="geometry" />
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].destination=${product}${context}${environment}.tms.sim.synoptic.notification.simsynopticdto&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].id=SIMSYNOPTICDTO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[0].messageType=SIMSYNOPTICDTO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[1].destination=${product}${context}${environment}.tms.sim.synoptic.notification.simsynopticsvgdto&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[1].id=SIMSYNOPTICSVGDTO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[1].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;publishers[1].messageType=SIMSYNOPTICSVGDTO&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="660" x="16" y="1754" as="geometry" />
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;notificationmanager-listeners.properties&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[86].origin=${product}sim${environment}.tms.sim.synoptic.notification.simsynopticdto&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[86].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[86].payload=SIMSYNOPTICDTO&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;# sim synoptic train&lt;/div&gt;&lt;div&gt;consumers[104].origin=${product}sim${environment}.tms.sim.synoptic.notification.simsynopticsvgdto&lt;/div&gt;&lt;div&gt;consumers[104].type=TOPIC&lt;/div&gt;&lt;div&gt;consumers[104].payload=SIMSYNOPTICSVGDTO&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="560" x="620" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# status listener&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;notification.channel.systemstatus.status=${product}inf${environment}.indra.queue.notification.systemstatus&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;notification.payload.systemstatus.status=SYSTEM_STATUS&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="600" x="520" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ejemplo:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].origin=${product}inf${environment}.indra.queue.notification.systemstatus&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].payload=SYSTEM_STATUS&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="600" x="676" y="1610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
