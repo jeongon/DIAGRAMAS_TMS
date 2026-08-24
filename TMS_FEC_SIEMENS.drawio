@@ -6026,7 +6026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E3GyQWG43PmhGByIU2kZ" name="SIM EST comuniaciones">
-    <mxGraphModel dx="1344" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6231,7 +6231,7 @@
           <mxGeometry height="100" width="260" x="190" y="1350" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#FF9933;strokeColor=#FF9933;strokeWidth=5;" value="CLIENTE&lt;br&gt;WEB" vertex="1">
-          <mxGeometry height="90" width="80" x="1100" y="1340" as="geometry" />
+          <mxGeometry height="90" width="80" x="1220" y="1340" as="geometry" />
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-17" edge="1" parent="1" source="r6gMPD3ejlN1ejnrWnAr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r6gMPD3ejlN1ejnrWnAr-3">
           <mxGeometry relative="1" as="geometry">
@@ -6317,6 +6317,9 @@
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ejemplo:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].origin=${product}inf${environment}.indra.queue.notification.systemstatus&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].type=TOPIC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;consumers[11].payload=SYSTEM_STATUS&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="600" x="690" y="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="r6gMPD3ejlN1ejnrWnAr-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFCC99;strokeWidth=5;strokeColor=#FF9933;" value="notification manager" vertex="1">
+          <mxGeometry height="47.5" width="130" x="1090" y="1376.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
