@@ -6208,13 +6208,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x7NlimeTOJYp0kkiHpoT-56" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="CASSANDRA" vertex="1">
-          <mxGeometry height="80" width="120" x="330" y="704" as="geometry" />
+          <mxGeometry height="80" width="120" x="330" y="764" as="geometry" />
         </mxCell>
-        <mxCell id="x7NlimeTOJYp0kkiHpoT-58" edge="1" parent="1" source="x7NlimeTOJYp0kkiHpoT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;strokeWidth=4;" target="x7NlimeTOJYp0kkiHpoT-56">
+        <mxCell id="x7NlimeTOJYp0kkiHpoT-58" edge="1" parent="1" source="x7NlimeTOJYp0kkiHpoT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#D80073;strokeWidth=4;" target="x7NlimeTOJYp0kkiHpoT-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x7NlimeTOJYp0kkiHpoT-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;dao&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="140" x="320" y="860" as="geometry" />
+          <mxGeometry height="40" width="140" x="320" y="920" as="geometry" />
         </mxCell>
         <mxCell id="x7NlimeTOJYp0kkiHpoT-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=15;strokeWidth=4;" value="&lt;ul&gt;&lt;li&gt;tms-sim-server-instructor&lt;/li&gt;&lt;li&gt;tms-sim-server-synoptic&lt;/li&gt;&lt;li&gt;tms-sim-server-trainmanager&lt;/li&gt;&lt;li&gt;tms-sim-server-ixl&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tms-sim-server-detectors&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;tms-sim-server-fec&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tms-sim-server-scenario&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tms-sim-server-dao&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="200" width="264" x="10" y="120" as="geometry" />
@@ -6320,6 +6320,15 @@
         </mxCell>
         <mxCell id="r6gMPD3ejlN1ejnrWnAr-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFCC99;strokeWidth=5;strokeColor=#FF9933;" value="notification manager" vertex="1">
           <mxGeometry height="47.5" width="130" x="1090" y="1376.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LHUv3vylhc4IS-QFf6BF-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9933FF;fontColor=#ffffff;strokeColor=#A50040;" value="POSTGRESS" vertex="1">
+          <mxGeometry height="80" width="120" x="500" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="LHUv3vylhc4IS-QFf6BF-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="fec-sim" vertex="1">
+          <mxGeometry height="40" width="140" x="490" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="LHUv3vylhc4IS-QFf6BF-3" edge="1" parent="1" source="LHUv3vylhc4IS-QFf6BF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#9933FF;" target="LHUv3vylhc4IS-QFf6BF-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
