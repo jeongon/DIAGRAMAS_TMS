@@ -6026,7 +6026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E3GyQWG43PmhGByIU2kZ" name="SIM EST comuniaciones">
-    <mxGraphModel dx="1613" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3226" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6329,6 +6329,9 @@
         </mxCell>
         <mxCell id="LHUv3vylhc4IS-QFf6BF-3" edge="1" parent="1" source="LHUv3vylhc4IS-QFf6BF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#9933FF;" target="LHUv3vylhc4IS-QFf6BF-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tIkinLF5Yq9exh1CW2Sr-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="0000FF" vertex="1">
+          <mxGeometry height="40" width="70" x="2930" y="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
