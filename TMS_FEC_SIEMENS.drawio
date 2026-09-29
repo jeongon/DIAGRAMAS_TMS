@@ -5653,7 +5653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NUa8fSfc5QyDunVodppW" name="GESTEL">
-    <mxGraphModel dx="2171" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2725" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6250,8 +6250,8 @@
         <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;span style=&quot;background-color: rgb(255, 128, 0);&quot;&gt;NADIE UTILIZA ESTOS ESTADOS&lt;/span&gt;&lt;br&gt;&lt;/span&gt;No se utilizan ni:&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;public synchronized EnceGestelElemento[] getElementos() {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; public synchronized EstadoGestelEnce[] getEstados() {&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="406" x="1044" y="4710" as="geometry" />
         </mxCell>
-        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;EstadosMgr&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Es la clave de todo&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="406" x="1662" y="3990" as="geometry" />
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#e51400;strokeColor=#B20000;" value="&lt;span style=&quot;&quot;&gt;EstadosMgr&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Es la clave de todo&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="406" x="1610" y="4030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
