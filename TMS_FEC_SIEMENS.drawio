@@ -5653,7 +5653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NUa8fSfc5QyDunVodppW" name="GESTEL">
-    <mxGraphModel dx="1729" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6021,6 +6021,237 @@
         </mxCell>
         <mxCell id="iHoV6YkQU7KzsD9QHnRM-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; color: rgb(255, 128, 0);&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.protocolo.MensajesManager.tratarMensajeRecibido(List&amp;lt;Trama&amp;gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;} else if (GestelCtes.ID_PET_MED_ANA.equalsIgnoreCase(idMensajeRecibido) || GestelCtes.ID_PET_MED_DIG.equalsIgnoreCase(idMensajeRecibido)) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MsgGestel_PET_MEDIDAS msg = new MsgGestel_PET_MEDIDAS(trama);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; datos = msg.getTrama();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.gestorTramas.componerTramaRespuesta(trama, datos);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="211.5" width="780" x="60" y="4060" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-6" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="4220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-7" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getEstadosManager()" vertex="1">
+          <mxGeometry relative="1" x="0.5666" y="4" as="geometry">
+            <mxPoint x="-71" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-8" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514.5833333333335" y="4260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-9" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getCambiosPendientes()" vertex="1">
+          <mxGeometry relative="1" x="-0.1628" y="-2" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=98;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.protocolo.mensajes.&lt;/span&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;MsgGestel_PET_ALAEST_1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="20" x="1180" y="4060" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="com.indra.sim.apps.ence.FecConnectorGESTEL.&lt;div&gt;FecConnectorGestel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="1440" y="4070" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.estados.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EstadosMgr&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="100" x="1630" y="4070" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-49" parent="XMF6IAe-Q1Pm_rZE5Ptk-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-10" parent="1" style="html=1;whiteSpace=wrap;" value="EstadoGestelEnce[] estados" vertex="1">
+          <mxGeometry height="50" width="190" x="1200" y="4270" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-13" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-11" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314.5833333333335" y="4560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-14" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value=".actualizarEstado();" vertex="1">
+          <mxGeometry relative="1" x="-0.1499" y="-2" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=98;" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.estados.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;ActualizarEstadosTask&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="20" x="1180" y="4400" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.estados.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EstadoControlesMgr&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="1390" y="4410" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-15" parent="XMF6IAe-Q1Pm_rZE5Ptk-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-21" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XMF6IAe-Q1Pm_rZE5Ptk-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-22" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="actualizarEstados()" vertex="1">
+          <mxGeometry relative="1" x="-0.0018" y="2" as="geometry">
+            <mxPoint x="-4" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;for (int i = 0; i &amp;lt; elementos.length; i++) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; elementos[i].actualizarEstados();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="1210" y="4610" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.elements.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EnceGestelElemento&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="1640" y="4455" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-20" parent="XMF6IAe-Q1Pm_rZE5Ptk-19" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ºº" vertex="1">
+          <mxGeometry height="170" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; actualizarEstadosControles();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;for (int i = 0; i &amp;lt; estados.length; i++) {&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; estados[i].setEstado(controles[i].getEstado(), controles[i].getTimestamp());&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="1510" y="4650" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.estados.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EstadoGestelEnce&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="1830" y="4480" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-25" parent="XMF6IAe-Q1Pm_rZE5Ptk-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-26" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-20" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1890" y="4640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-27" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; text-align: left; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;setEstado&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2538" y="2" as="geometry">
+            <mxPoint x="1" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.elements.cvia.ctrl.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EnceGestelControlCVia&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="2068" y="4490" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-29" parent="XMF6IAe-Q1Pm_rZE5Ptk-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-31" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-20" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1904" y="4610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-32" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="actualizarEstadosControles" vertex="1">
+          <mxGeometry relative="1" x="0.4457" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.elements.cvia.ctrl.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EnceGestelControlCVia&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="100" x="2270" y="4455" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-34" parent="XMF6IAe-Q1Pm_rZE5Ptk-33" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-35" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-29" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="4705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-36" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;actualizarEstado(Object obj)&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.6008" y="2" as="geometry">
+            <mxPoint x="49" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-40" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.elements.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EnceGestelControl&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="450" width="100" x="2460" y="4510" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-42" edge="1" parent="XMF6IAe-Q1Pm_rZE5Ptk-40" source="XMF6IAe-Q1Pm_rZE5Ptk-41" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="280" />
+              <mxPoint x="110" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-43" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="setEstado" vertex="1">
+          <mxGeometry relative="1" x="-0.5529" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-41" parent="XMF6IAe-Q1Pm_rZE5Ptk-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="10" x="45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-37" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-34" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2415" y="4760" />
+            </Array>
+            <mxPoint x="2320" y="4760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-38" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="setEstadoWithTimestamp" vertex="1">
+          <mxGeometry relative="1" x="-0.2091" y="-3" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 217, 102);&quot;&gt;&amp;nbsp;protected byte[] estado;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; protected long timestamp = 0;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="2520" y="4825" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-45" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-41" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2700" y="4880" />
+              <mxPoint x="2710" y="4300" />
+            </Array>
+            <mxPoint x="1680" y="4280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-48" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="setEstado(EstadoGestelEnce estadoAct)" vertex="1">
+          <mxGeometry relative="1" x="0.1728" y="-1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-47" parent="1" style="html=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="com.indra.sim.apps.ence.FecConnectorGESTEL.estados.&lt;div&gt;EstadoGestelEnce&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="360" x="1938" y="4310" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-50" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ComparadorEstado()" vertex="1">
+          <mxGeometry height="70" width="123" x="1730" y="4320" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-51" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-49" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1734.9999999999995" y="4370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-52" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getCambios()" vertex="1">
+          <mxGeometry relative="1" x="0.131" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;NADIE UTILIZA ESTOS ESTADOS&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;protected EstadoGestelEnce[] estados = new EstadoGestelEnce[0];&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="406" x="1450" y="4750" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-60" edge="1" parent="1" source="XMF6IAe-Q1Pm_rZE5Ptk-59" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;" target="XMF6IAe-Q1Pm_rZE5Ptk-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2704.75" y="4940" />
+            </Array>
+            <mxPoint x="2580" y="4960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-61" connectable="0" parent="XMF6IAe-Q1Pm_rZE5Ptk-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getEstado" vertex="1">
+          <mxGeometry relative="1" x="0.2364" y="1" as="geometry">
+            <mxPoint x="28" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-59" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=98;" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;com.indra.sim.apps.ence.FecConnectorGESTEL.protocolo.mensajes.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;MsgGestel_PET_MED_DIG&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="20" x="2820" y="4660" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;span style=&quot;background-color: rgb(201, 233, 255);&quot;&gt;NADIE UTILIZA ESTOS ESTADOS&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Solo por este mensaje se accede al estado de todos los controladores del elemento Pedido&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="406" x="2520" y="4950" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;span style=&quot;background-color: rgb(255, 128, 0);&quot;&gt;NADIE UTILIZA ESTOS ESTADOS&lt;/span&gt;&lt;br&gt;&lt;/span&gt;No se utilizan ni:&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;public synchronized EnceGestelElemento[] getElementos() {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; public synchronized EstadoGestelEnce[] getEstados() {&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="406" x="1044" y="4710" as="geometry" />
+        </mxCell>
+        <mxCell id="XMF6IAe-Q1Pm_rZE5Ptk-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;EstadosMgr&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Es la clave de todo&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="406" x="1662" y="3990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
