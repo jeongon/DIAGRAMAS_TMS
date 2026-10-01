@@ -5653,7 +5653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NUa8fSfc5QyDunVodppW" name="GESTEL">
-    <mxGraphModel dx="3834" dy="2560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1729" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6674,11 +6674,11 @@
         </mxCell>
         <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-139" connectable="0" parent="b0Ytd2ZLcDV4b0H8nfNp-138" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="setEstado(EstadoGestelEnce estadoAct)" vertex="1">
           <mxGeometry relative="1" x="-0.5512" y="-2" as="geometry">
-            <mxPoint x="-14" y="-25" as="offset" />
+            <mxPoint x="-13" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-137" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;EnceGestelControl&lt;/span&gt;" vertex="1">
-          <mxGeometry height="300" width="20" x="1750" y="3365" as="geometry" />
+          <mxGeometry height="300" width="20" x="1660" y="3340" as="geometry" />
         </mxCell>
         <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-140" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ComparadorEstado" vertex="1">
           <mxGeometry height="132.5" width="105" x="1534" y="3510.75" as="geometry" />
@@ -6690,6 +6690,47 @@
           <mxGeometry relative="1" x="-0.125" y="11" as="geometry">
             <mxPoint as="offset" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-146" edge="1" parent="1" source="b0Ytd2ZLcDV4b0H8nfNp-143" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;strokeColor=#FF3333;strokeWidth=4;" target="b0Ytd2ZLcDV4b0H8nfNp-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="3440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-147" connectable="0" parent="b0Ytd2ZLcDV4b0H8nfNp-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="reset" vertex="1">
+          <mxGeometry relative="1" x="0.4237" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-143" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" value="sim&amp;nbsp; &amp;nbsp; &amp;nbsp;PI" vertex="1">
+          <mxGeometry height="240" width="50" x="1840" y="3380" as="geometry" />
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-144" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ENCE" vertex="1">
+          <mxGeometry height="405" width="120" x="1710" y="3330" as="geometry" />
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-145" parent="b0Ytd2ZLcDV4b0H8nfNp-144" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="55" y="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-148" edge="1" parent="1" source="b0Ytd2ZLcDV4b0H8nfNp-145" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;strokeColor=#FF3333;strokeWidth=4;" target="b0Ytd2ZLcDV4b0H8nfNp-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540.5" y="3450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-149" connectable="0" parent="b0Ytd2ZLcDV4b0H8nfNp-148" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="reset" vertex="1">
+          <mxGeometry relative="1" x="-0.4913" y="1" as="geometry">
+            <mxPoint x="-32" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0Ytd2ZLcDV4b0H8nfNp-150" edge="1" parent="1" source="b0Ytd2ZLcDV4b0H8nfNp-128" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;strokeWidth=5;strokeColor=#FF3333;" target="b0Ytd2ZLcDV4b0H8nfNp-129" value="reset">
+          <mxGeometry relative="1" x="-0.0791" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1385.5" y="3470" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
