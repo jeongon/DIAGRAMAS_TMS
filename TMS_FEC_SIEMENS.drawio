@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="36">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="37">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="componentes vision global">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -7349,6 +7349,198 @@
         </mxCell>
         <mxCell id="CQYVyryMTVnCa-OzG49S-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" value="gestion de la alarma:&lt;br&gt;&lt;br&gt;&lt;div&gt;activa&amp;nbsp; &amp;nbsp;no activa, en funcion de los idActivadores&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;reconocida&lt;/div&gt;&lt;div&gt;y eliminada&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="330" x="3230" y="820" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d_kvPwpT7QQP3QbxUUn4" name="IRL ixl">
+    <mxGraphModel dx="1579" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ixl-lib-irl&amp;nbsp; &amp;nbsp; ssi IXL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="700" width="1440" x="-20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-3" parent="Ps_CxHl_cEidAxNojS9u-16" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=17;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre;&quot;&gt;private static final String INTERLOCKING_DATA = &quot;/ixl&quot;;                   &lt;br/&gt;private static final String INTERLOCKING_GROUPS =&quot;/interlocking-groups&quot;;  &lt;br/&gt;private static final String TRACK_CIRCUITS = &quot;/track-circuits&quot;;           &lt;br/&gt;private static final String POINTS = &quot;/points&quot;;                           &lt;br/&gt;private static final String SIGNALS = &quot;/signals&quot;;                         &lt;br/&gt;private static final String ROUTES = &quot;/routes&quot;;                           &lt;br/&gt;private static final String OVERLAPS = &quot;/overlaps&quot;;                       &lt;br/&gt;private static final String LEVEL_CROSSINGS = &quot;/level-crossings&quot;;         &lt;br/&gt;private static final String UPS = &quot;/ups&quot;;                                 &lt;br/&gt;private static final String PILOT_WORKINGS =&quot;/pilot-workings&quot;;            &lt;br/&gt;private static final String MID_SECTIONS =&quot;/mid-sections&quot;;                &lt;br/&gt;private static final String TRAFF_DIR =&quot;/traffic-directions&quot;;             &lt;br/&gt;private static final String SLOTS =&quot;/slots&quot;;                              &lt;br/&gt;private static final String GROUND_FRAMES =&quot;/ground-frames&quot;;              &lt;br/&gt;                                                                          &lt;br/&gt;private WebClient simDaoWebClient;                                        &lt;br/&gt;private static final long TIME_OUT = 30;                                  &lt;br/&gt;private static final long ROUTES_TIME_OUT = 60;                           &lt;br/&gt;                                                                          &lt;br/&gt;@Value(&quot;${sim.topology}&quot;)                                                 &lt;br/&gt;private String topology;                                                  &lt;br/&gt;                                                                          &lt;br/&gt;@Value(&quot;${sim.ixl.mnemo}&quot;)                                                &lt;br/&gt;private String ixlMnemo;                                                  &lt;br/&gt;                                                                          &lt;br/&gt;@Value(&quot;${sim.dao.topo.module.url}&quot;)                                      &lt;br/&gt;private String uriSimDao;                                                 &lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="460" width="620" x="20" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-1" parent="Ps_CxHl_cEidAxNojS9u-16" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;LoaderIrlTopologyService&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-14" parent="Ps_CxHl_cEidAxNojS9u-16" style="swimlane;whiteSpace=wrap;html=1;" value="irl dao" vertex="1">
+          <mxGeometry height="200" width="200" x="660" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-5" parent="Ps_CxHl_cEidAxNojS9u-14" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;DataIrlSignal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-15" parent="Ps_CxHl_cEidAxNojS9u-16" style="swimlane;whiteSpace=wrap;html=1;" value="ixl-lib-irl" vertex="1">
+          <mxGeometry height="390" width="360" x="950" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-9" parent="Ps_CxHl_cEidAxNojS9u-15" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre;&quot;&gt;IxlSsi&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="27" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-13" parent="Ps_CxHl_cEidAxNojS9u-15" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre;&quot;&gt;SenialBAU.java&lt;br/&gt;SenialRemota.java&lt;br/&gt;SenialRetroceso.java&lt;br/&gt;SenialVirtual.java&lt;br/&gt;SetSignal.java&lt;br/&gt;SignalLx.java&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="220" width="140" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-10" edge="1" parent="Ps_CxHl_cEidAxNojS9u-16" source="Ps_CxHl_cEidAxNojS9u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-12" connectable="0" parent="Ps_CxHl_cEidAxNojS9u-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="addnuevaSenial" vertex="1">
+          <mxGeometry relative="1" x="0.4679" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-21" edge="1" parent="1" source="Ps_CxHl_cEidAxNojS9u-19" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-22" connectable="0" parent="Ps_CxHl_cEidAxNojS9u-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="getBean" vertex="1">
+          <mxGeometry relative="1" x="0.2827" y="-2" as="geometry">
+            <mxPoint x="-18" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div&gt;irl-ixl&lt;/div&gt;main" vertex="1">
+          <mxGeometry height="300" width="100" x="360" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ixl (producto)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;IIxlControl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="300" width="130" x="480" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-59" parent="Ps_CxHl_cEidAxNojS9u-20" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-60" parent="Ps_CxHl_cEidAxNojS9u-20" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="70" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-61" edge="1" parent="Ps_CxHl_cEidAxNojS9u-20" source="Ps_CxHl_cEidAxNojS9u-59" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="Ps_CxHl_cEidAxNojS9u-60" value="ixlParameterization">
+          <mxGeometry relative="1" x="-0.1059" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="220" />
+              <mxPoint x="100" y="250" />
+            </Array>
+            <mxPoint x="75" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ixl-lib-irl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ParametrizacionSsi&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="350" width="150" x="870" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-67" parent="Ps_CxHl_cEidAxNojS9u-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="70" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-68" parent="Ps_CxHl_cEidAxNojS9u-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="75" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-69" edge="1" parent="Ps_CxHl_cEidAxNojS9u-23" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-68" value="loadSignals()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="290" />
+              <mxPoint x="110" y="320" />
+            </Array>
+            <mxPoint x="80" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-32" edge="1" parent="1" source="Ps_CxHl_cEidAxNojS9u-25" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Ps_CxHl_cEidAxNojS9u-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="1080" as="sourcePoint" />
+            <mxPoint x="1020" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-42" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="360" width="420" x="210" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-38" parent="Ps_CxHl_cEidAxNojS9u-42" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ixl-lib-ext&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;IxlSiemens&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-40" parent="Ps_CxHl_cEidAxNojS9u-38" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-34" parent="Ps_CxHl_cEidAxNojS9u-42" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre; background-color: rgb(212, 212, 212);&quot;&gt;ixl-lib-ext&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; white-space: pre; background-color: rgb(212, 212, 212);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;IxlCcs&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-36" parent="Ps_CxHl_cEidAxNojS9u-34" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-30" parent="Ps_CxHl_cEidAxNojS9u-42" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ixl-lib (producto)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;IIxl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-43" parent="Ps_CxHl_cEidAxNojS9u-42" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="ixl PRODUCTO" vertex="1">
+          <mxGeometry height="30" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-44" edge="1" parent="Ps_CxHl_cEidAxNojS9u-42" source="Ps_CxHl_cEidAxNojS9u-34" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="235" as="sourcePoint" />
+            <mxPoint x="390" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-45" edge="1" parent="Ps_CxHl_cEidAxNojS9u-42" source="Ps_CxHl_cEidAxNojS9u-38" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Ps_CxHl_cEidAxNojS9u-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="405" as="sourcePoint" />
+            <mxPoint x="545" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-47" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="340" width="420" x="700" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-53" parent="Ps_CxHl_cEidAxNojS9u-47" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="ixl PRODUCTO" vertex="1">
+          <mxGeometry height="30" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-25" parent="Ps_CxHl_cEidAxNojS9u-47" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=58;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ixl-lib-irl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;IxlSsi&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="66" width="160" x="20" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-27" parent="Ps_CxHl_cEidAxNojS9u-25" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-29" parent="Ps_CxHl_cEidAxNojS9u-47" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ix&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(212, 212, 212), rgb(55, 55, 55)); font-family: Consolas; font-size: 10pt; white-space: pre; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;l-lib-irl&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ISsiCommands&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="110" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-33" edge="1" parent="Ps_CxHl_cEidAxNojS9u-47" source="Ps_CxHl_cEidAxNojS9u-25" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.675;exitY=-0.01;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="Ps_CxHl_cEidAxNojS9u-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-155" y="212" as="sourcePoint" />
+            <mxPoint x="-250" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-56" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div&gt;irl-ixl&lt;/div&gt;main" vertex="1">
+          <mxGeometry height="340" width="100" x="720" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-64" parent="Ps_CxHl_cEidAxNojS9u-56" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-57" edge="1" parent="1" source="Ps_CxHl_cEidAxNojS9u-19" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="Ps_CxHl_cEidAxNojS9u-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="409.9999999999998" y="1020" as="sourcePoint" />
+            <mxPoint x="544.9999999999995" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-58" connectable="0" parent="Ps_CxHl_cEidAxNojS9u-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="startIxl" vertex="1">
+          <mxGeometry relative="1" x="0.4834" y="2" as="geometry">
+            <mxPoint x="-40" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-62" edge="1" parent="1" source="Ps_CxHl_cEidAxNojS9u-60" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-64">
+          <mxGeometry relative="1" x="0.0244" as="geometry">
+            <Array as="points">
+              <mxPoint x="662.5" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-63" connectable="0" parent="Ps_CxHl_cEidAxNojS9u-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="parameterization" vertex="1">
+          <mxGeometry relative="1" x="-0.3854" y="-2" as="geometry">
+            <mxPoint x="27" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-65" edge="1" parent="1" source="Ps_CxHl_cEidAxNojS9u-64" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ps_CxHl_cEidAxNojS9u-67">
+          <mxGeometry relative="1" x="0.0303" as="geometry">
+            <Array as="points">
+              <mxPoint x="857.5000000000005" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ps_CxHl_cEidAxNojS9u-66" connectable="0" parent="Ps_CxHl_cEidAxNojS9u-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="init" vertex="1">
+          <mxGeometry relative="1" x="0.4667" y="-4" as="geometry">
+            <mxPoint x="-36" y="-14" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
