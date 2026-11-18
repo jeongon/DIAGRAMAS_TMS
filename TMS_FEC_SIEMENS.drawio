@@ -7354,7 +7354,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d_kvPwpT7QQP3QbxUUn4" name="IRL ixl">
-    <mxGraphModel dx="1729" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2382" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7545,7 +7545,7 @@
         <mxCell id="x_iL7WkB2KqgxH7Okn40-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=30;" value="&lt;span style=&quot;background-color:#ffffff;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color:#000000;background-color:#ffffff;font-family:&amp;quot;Consolas&amp;quot;;font-size:10pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#000000;background-color:#d4d4d4;&quot;&gt;CommunicationsCommandsThread&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="330" width="20" x="110" y="1660" as="geometry" />
         </mxCell>
-        <mxCell id="x_iL7WkB2KqgxH7Okn40-4" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;size=30;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ControlDataInterpreter&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="x_iL7WkB2KqgxH7Okn40-4" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;size=30;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;" value="&lt;span style=&quot;font-family: Consolas; font-size: 13.3333px; white-space: pre; background-color: rgb(212, 212, 212);&quot;&gt;ControlDataInterpreter&lt;/span&gt;" vertex="1">
           <mxGeometry height="440" width="35" x="460" y="1640" as="geometry" />
         </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-10" parent="x_iL7WkB2KqgxH7Okn40-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
@@ -7554,17 +7554,17 @@
         <mxCell id="x_iL7WkB2KqgxH7Okn40-7" edge="1" parent="1" source="x_iL7WkB2KqgxH7Okn40-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="x_iL7WkB2KqgxH7Okn40-10">
           <mxGeometry relative="1" x="0.0118" as="geometry">
             <Array as="points">
-              <mxPoint x="295" y="1810" />
+              <mxPoint x="150" y="1750" />
             </Array>
             <mxPoint x="465" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-8" connectable="0" parent="x_iL7WkB2KqgxH7Okn40-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;proccessReceivedControlBytes&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.5235" y="1" as="geometry">
-            <mxPoint x="46" as="offset" />
+            <mxPoint x="92" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_iL7WkB2KqgxH7Okn40-24" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;size=20;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;ControlDataInterpreter&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="x_iL7WkB2KqgxH7Okn40-24" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;size=20;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 13.3333px; white-space: pre; background-color: rgb(212, 212, 212);&quot;&gt;ControlSequencesInterpreter&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="440" width="47" x="790" y="1633" as="geometry" />
         </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-25" parent="x_iL7WkB2KqgxH7Okn40-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
@@ -7650,27 +7650,23 @@
             <mxPoint x="485" y="1885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_iL7WkB2KqgxH7Okn40-3" edge="1" parent="1" source="x_iL7WkB2KqgxH7Okn40-2" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="x_iL7WkB2KqgxH7Okn40-1" value="processTelegram">
-          <mxGeometry relative="1" x="1" y="45" as="geometry">
-            <mxPoint x="40" y="25" as="offset" />
-            <Array as="points">
-              <mxPoint x="117.25" y="1740" />
-            </Array>
-            <mxPoint x="115" y="1710" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-33" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="x_iL7WkB2KqgxH7Okn40-2" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="145" y="1710" />
-              <mxPoint x="145" y="1740" />
+              <mxPoint x="180" y="1710" />
+              <mxPoint x="180" y="1740" />
             </Array>
-            <mxPoint x="115" y="1710" as="sourcePoint" />
-            <mxPoint x="120" y="1740" as="targetPoint" />
+            <mxPoint x="150" y="1710" as="sourcePoint" />
+            <mxPoint x="155" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_iL7WkB2KqgxH7Okn40-78" connectable="0" parent="x_iL7WkB2KqgxH7Okn40-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;processCommandTelegram&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3034" as="geometry">
+            <mxPoint x="95" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="40" width="10" x="115" y="1720" as="geometry" />
+          <mxGeometry height="80" width="10" x="115" y="1720" as="geometry" />
         </mxCell>
         <mxCell id="x_iL7WkB2KqgxH7Okn40-40" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;size=20;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 212, 212);&quot;&gt;NeutralCommandForIXLGenerator&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="440" width="47" x="1160" y="1620" as="geometry" />
